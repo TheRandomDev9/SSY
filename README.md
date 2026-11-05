@@ -34,7 +34,7 @@ lib/render.js                block renderer (p, h2, h3, ul, ol, cards, table, kv
 lib/home.js                  builds the home page's section index from the navigation
 content/<lang>/site.js       navigation, UI strings, footer
 content/<lang>/pages/*.js    one module per page: { id, title, short, lead, blocks: [...] }
-content/parts/*.js          shared bilingual sections (books, talks, bhajans) used by the contents page
+content/parts/*.js           shared bilingual sections (books, talks, bhajans) used by the contents page
 assets/css/style.css         styles and light/dark tokens
 assets/js/site.js            theme, menus, search, dictionary filter, scroll-spy
 tools/parity.js              checks that a Telugu page and its English mirror have the same structure
