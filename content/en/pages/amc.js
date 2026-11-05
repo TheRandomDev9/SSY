@@ -56,7 +56,7 @@ module.exports = {
     { type: 'ul', items: [
       'A 2008 Mumbai account (Life Positive): after 3 days of silence at the Deheri ashram, "a drastic reduction of negative thoughts and unhappiness."',
       'A 2009 corporate batch (blog): a 2-day silent retreat at Manor – a strict rule of silence, a blindfolded trust walk; "a roller coaster for mind and body – yet I felt lighter."',
-      'In RSVK\'s words: "A person becomes fully charged for a few weeks following the course" – hence once every 3 months.',
+      'In ssy.life\'s words: "A person becomes fully charged for a few weeks following the course" – hence once every 3 months.',
       'Common experiences: on the first day, the urge to talk and irritation; on the second, deep rest, sometimes tears; from the third, calm and clarity; after the camp, the first words are "few and slow".'
     ] },
 
