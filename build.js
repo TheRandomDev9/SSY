@@ -142,7 +142,7 @@ function pageHtml(lang, site, pages, page) {
   <nav class="drawer" id="drawer" aria-label="${esc(ui.menu)}">${navHtml(site, pages, page.id, 'drawer-nav')}</nav>
   <div class="search-panel" id="search-panel" hidden>
     <div class="search-inner">
-      <input type="search" id="site-search" placeholder="${esc(ui.searchPlaceholder)}" aria-label="${esc(ui.search)}" autocomplete="off" data-index="${base}search-${lang.code}.json">
+      <input type="search" id="site-search" placeholder="${esc(ui.searchPlaceholder)}" aria-label="${esc(ui.search)}" autocomplete="off" data-index="search-${lang.code}.json">
       <button type="button" class="icon-btn search-close" aria-label="${esc(ui.close)}">${ICONS.x}</button>
     </div>
     <div class="search-results" id="search-results" aria-live="polite"></div>
@@ -207,7 +207,7 @@ for (const lang of LANGS) {
   }
   fs.writeFileSync(path.join(outDir, `search-${lang.code}.json`), JSON.stringify(searchIndex));
   if (lang.code === 'te') {
-    fs.writeFileSync(path.join(DIST, '404.html'), pageHtml(lang, site, pages, { id: '404', title: site.ui.notFoundTitle, short: site.ui.notFoundTitle, group: '', lead: site.ui.notFoundText, blocks: [{ type: 'p', text: `[${site.ui.home}](index.html)` }] }).replace(/href="(?!https?:|#|\.\.)/g, `href="${SITE_URL}`).replace(/src="(?!https?:)/g, `src="${SITE_URL}`).replace(/data-index="\.\//, `data-index="${SITE_URL}`));
+    fs.writeFileSync(path.join(DIST, '404.html'), pageHtml(lang, site, pages, { id: '404', title: site.ui.notFoundTitle, short: site.ui.notFoundTitle, group: '', lead: site.ui.notFoundText, blocks: [{ type: 'p', text: `[${site.ui.home}](index.html)` }] }).replace(/href="(?!https?:|#|\.\.)/g, `href="${SITE_URL}`).replace(/src="(?!https?:)/g, `src="${SITE_URL}`).replace(/data-index="/, `data-index="${SITE_URL}`));
   }
   console.log(`[${lang.code}] ${Object.keys(pages).length} pages, ${searchIndex.length} search entries`);
 }

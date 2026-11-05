@@ -63,7 +63,7 @@ module.exports = {
       '**When you eat what you don\'t want to eat, it is called dieting; but if you eat what you want to eat, you are eating the food of your choice. To be able to shift your food habits requires a shift in your consciousness.** ("Why it is Difficult to change our Food Habits?")',
       '**Body is the best doctor and knows how to cure itself. Body only requires rest to heal. What is rest? Mind being empty enough to listen to the body and attend to its needs is called rest… This is Swasthya or Health – being in oneself!** (Process of Cure)',
       '**Even if you are physically fit, but feeling angry and jealous, you cannot be said to be well.** (LP 2008 – swasthya on five planes)',
-      '**Every person eats because of the level of consciousness he is in… If you give me what I ate as a child, I simply cannot eat it now, because there is a shift in consciousness.** (same)',
+      '**Every person eats because of the level of consciousness he is in… If you give me what I ate as a child, I simply cannot eat it now, because there is a shift in consciousness.** ("Why it is Difficult to change our Food Habits?")',
       '**The lesser we eat the better we are; plan meals 50 per cent raw and 50 per cent cooked; not eating non-vegetarian food has nothing to do with religion – it takes 72 hours to digest.** (Manoj Lekhi, LP 2017)'
     ] },
 
