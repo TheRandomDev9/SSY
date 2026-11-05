@@ -539,3 +539,15 @@ noscript .nojs { display: block; padding: 20px var(--gutter); max-width: 800px; 
 table.compact { min-width: 0; table-layout: auto; }
 table.compact th:first-child, table.compact td:first-child { width: 2.4em; text-align: right; color: var(--text-faint); font-variant-numeric: tabular-nums; }
 @media (max-width: 560px) { table.compact th, table.compact td { padding: 9px 8px; font-size: .92rem; } }
+
+/* verse block: prayers / shlokas */
+.verse { margin: 12px 0 22px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--gold-soft); }
+.verse-title { font-family: var(--font-head); font-weight: 700; font-size: 1.08rem; margin-bottom: 10px; color: var(--text); text-align: left; }
+.verse-block { margin: 0 0 12px; }
+.verse-block p { margin: 0; line-height: 1.9; font-size: 1.06rem; }
+.verse-label { display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--text-faint); font-family: var(--font-latin); margin-bottom: 2px; }
+.verse-block[lang="sa-Latn"] p { font-style: italic; font-size: .98rem; color: var(--text-soft); }
+.verse-meaning { border-top: 1px dashed var(--line-strong); padding-top: 10px; margin-top: 4px; }
+.verse-meaning p { margin: 0; color: var(--text); }
+.verse-source { margin: 8px 0 0; font-size: .85rem; color: var(--text-soft); }
+.acc .body ul { margin: 8px 0 4px; }
