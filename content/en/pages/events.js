@@ -51,7 +51,7 @@ module.exports = {
         [
           "Chaturmasya",
           "10 July – 15 September (approx.)",
-          "A four-month period of special sadhana and satsang"
+          "A period of special sadhana and satsang (traditionally the four-month Chaturmasya; RSVK's dates alongside)"
         ],
         [
           "Sharannavaratri music festival",

@@ -40,7 +40,7 @@ module.exports = {
       ]),
       G('C', [
         { term: 'Cancer Rehabilitation', sa: '', def: 'An RSVK programme – after medical treatment, 15 days of detox + 30 days of Joy Therapy + a 30-day padayatra + a monthly 3-day Level II retreat; Guruji\'s audio "Cure for Cancer".' },
-        { term: 'Chaturmasya', sa: 'चातुर्मास्य', def: 'The four-month sadhana period of July–September; opened at the SMART ashram by Sri Srikanta Guruji (Avadhoota Sri Srikantananda Saraswati Maharaj) (Guru Purnima 2025).' },
+        { term: 'Chaturmasya', sa: 'चातुर्मास्य', def: 'Traditionally a four-month sacred period of sadhana; RSVK observes it from about 10 July to 15 September; opened at the SMART ashram by Sri Srikanta Guruji (Avadhoota Sri Srikantananda Saraswati Maharaj) (Guru Purnima 2025).' },
         { term: 'Children\'s SSY (Ch.SSY)', sa: '', def: 'A 10-day programme for children aged 7–12 (games, stories, charts, prayer–meditation, Rajyoga pranayama); also as a residential camp (6 days, Katarkhadak/Deheri); attending one is required for TTC Phase 1, conducting them for Phase 2.', see: '[Children & education](children.html)' },
         { term: 'Chin / Chinmaya mudra', sa: 'चिन्मुद्रा / चिन्मय मुद्रा', def: 'Hand gestures in pranayama – thumb and index finger joined (chin); the other fingers folded (chinmaya); the SSY mudras also include the nasarga, brahma, adi, vishnu and jihva mudras (disciples\' blog).' },
         { term: 'Clean India Movement', sa: '', def: 'A cleanliness movement Guruji started in the late 1980s/early 1990s – centres adopting their surroundings; RPIF: "the foundation of the programme now taken up by Prime Minister Modi" (the organisation\'s claim).' },
@@ -75,7 +75,7 @@ module.exports = {
         { term: 'Global Religious Harmony', sa: '', def: 'A pledge of interfaith harmony at ~200 centres in 1996 – the mosque on Friday, the church on Sunday, the temple once a week.' },
         { term: 'Gommatagiri', sa: '', def: 'A village near Mysuru – the venue of SSY teacher training in 1984–86 (the batch of Jaggi Vasudev and Raviji).' },
         { term: 'Guru Puja', sa: 'गुरु पूजा', def: 'The worship of the guru lineage performed at SSY satsangs (chanting of shlokas); passing the "puja test" is compulsory for TTC Phase 1; RSVK bhajan album "Guru Pooja"; a Telugu Guru Puja video exists.' },
-        { term: 'Guru Purnima', sa: 'Guru Poornima', def: 'An annual festival at the SMART ashram (2025: 9–12 July – inauguration of the Rishi Sadhana Bhavan); the RSVK page also mentions "April – temple foundation day".' },
+        { term: 'Guru Purnima', sa: 'Guru Poornima', def: 'An annual festival at the SMART ashram (2025: 9–12 July – inauguration of the Rishi Sadana building); RSVK\'s events page also lists a "Guru Poornima" in April, marking the day the SMART temple was established.' },
         { term: 'Gurumatha C.A. Ramadevi Amma', sa: 'C.A. Rama Devi', def: 'Guruji\'s mother (1928 – 19 April 2021, aged 93) – founder-secretary of RSVK, his "first student"; widowed young, she stood by her son "like an elder sister"; she recovered from a swollen-legs illness by doing pranayama lying down; Aradhana in March/April, Jayanthi on 4 July.' },
         { term: 'Guruvani / Rishi Vani', sa: '', def: 'Guruji\'s sayings – the name of the RSVK blog, the ssy.life monthly magazine ("Samskruti Rishi Vani") and the SSY Guruvani app.', see: '[Rishi Vani](teachings.html)' },
         { term: 'Gurukulam', sa: 'गुरुकुल', def: 'The residential gurukul system of education – Rishi Gurukulam (Bengaluru 1982, Vizag 1997, Pune); "the world\'s first 100% Memory school"; aim: "world leaders with the humility of a saint, the knowledge of a scholar and the wisdom of a guru".', see: '[Children & education](children.html)' }
@@ -186,7 +186,7 @@ module.exports = {
         { term: 'Sri Vidya', sa: 'श्रीविद्या', def: 'Guruji\'s 2010 letter: "Now I am learning Srividya – the knowledge of reaching God through wealth; we can make everyone around us prosperous."' },
         { term: 'Siddha', sa: 'सिद्ध', def: '"Perfection or accomplishment (proven)" – ssy.life; proven knowledge; not "siddhi" (powers).' },
         { term: 'Siddha Samadhi Yoga (SSY)', sa: 'सिद्ध समाधि योग', def: 'The core programme designed by Guruji – 14 sessions + a 3½–4 day AMC; "the science of non-doing"; "from illness to health, from anxiety to bliss".', see: '[What is SSY?](intro.html)' },
-        { term: 'Siddhant Rishi Prabhakar', sa: '', def: 'Guruji\'s son (2000), founding director of RPIF, FLAME University; his "Pattabhishekam" at the Maralwadi ashram on Vijayadashami 2018; the "Zeest" project.' },
+        { term: 'Siddhant Rishi Prabhakar', sa: '', def: 'Guruji\'s son (born 2000), founding director of RPIF, FLAME University; his "Pattabhishekam" at the Maralwadi ashram on Vijayadashami 2018; the "Zeest" project.' },
         { term: 'Symbiosis', sa: 'Symbiosis, Pune', def: 'The Pune educational institution that made SSY compulsory for all its management students in 1996.' },
         { term: 'Sirvoi Ashram', sa: 'Sirvoi Ashram, Goa', def: 'RSVK ashram in Goa (Quepem) – the venue of VHS 2025 (12–14 December).' },
         { term: 'SMART', sa: 'Sri Matha Annapoorneshwari Rishi Thapokshetra', def: 'The full name of the main ashram and temple at Doddamaralavadi ("Sri Matha Annapoorneshwari Rishi Thapokshetra").' },
