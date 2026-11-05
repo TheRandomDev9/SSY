@@ -40,7 +40,7 @@ module.exports = {
         {
           "icon": "🌌",
           "title": "Viswaroop Darshan",
-          "text": "The vision of the universal form – wholeness of vision, oneness with the universe."
+          "text": "Probably the autobiographical treatise of Guruji's own guru, Bhagwan Shri Vishweshwaraiah (Rishi Vachan Trust, 2001) – see [Contents](contents.html#books)."
         }
       ]
     },

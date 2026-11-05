@@ -28,7 +28,7 @@ module.exports = {
   },
   nav: [
     { title: 'About SSY', items: ['index', 'intro', 'philosophy', 'teachings', 'benefits', 'faq'] },
-    { title: 'Guruji & history', items: ['guruji', 'history', 'books', 'publications', 'media'] },
+    { title: 'Guruji & history', items: ['guruji', 'history', 'books', 'publications', 'contents', 'media'] },
     { title: 'Student path', items: ['student', 'course', 'amc', 'bst', 'techniques', 'diet', 'sadhana', 'phases'] },
     { title: 'Teacher path', items: ['teacher'] },
     { title: 'Programmes & organisation', items: ['programs', 'children', 'rsvk', 'centres', 'events', 'resources', 'sources'] },

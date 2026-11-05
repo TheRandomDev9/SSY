@@ -5,6 +5,7 @@ module.exports = {
   short: 'Media – audio, video, books',
   lead: 'All the forms in which Guruji\'s teachings are available, in one place: 13 books published by RSVK, 51 audio discourse cassettes (full list), 17 bhajan albums, RPIF e-books, the monthly magazine "Rishi Vani", YouTube channels (with video links), online audio, mobile apps and the scientific research published on SSY.',
   blocks: [
+    { type: 'note', kind: 'info', text: "**What is inside each one?** A summary of every book, talk and bhajan album, quotes of Guruji's words, and where to read or hear them online – see the [Contents page](contents.html)." },
     { type: 'note', kind: 'info', text: 'All links on this page go to external websites (YouTube, archive.org, publishers). For just the official list of all 51 cassettes, 13 books and 17 bhajan albums with references, see the [Publications list](publications.html). The videos are not embedded here – clicking a link opens it in a new tab. To buy RSVK publications (books, cassettes/CDs): **9900023241 / 9900023275**.' },
 
     { type: 'h2', text: 'Books' },
@@ -15,7 +16,7 @@ module.exports = {
       ['**Living Life King Size on an Empty Wallet**', 'Abundance without money – "effortless" mastery in education, relationships and finances alike; Guruji\'s life adventures (2012)'],
       ['**Vision is Dangerous** / Building on Vision is Dangerous', '"Life is not a mission – it is a joyful visit to explore the earth"; it is the bond of love, not a vision, that holds a community together'],
       ['**Transcending Sex to Spirituality**', 'From desire to spirituality; the idea of brahmacharya'],
-      ['**Viswaroop Darshan**', 'The vision of the universal form – an integral view'],
+      ['**Viswaroop Darshan**', 'Probably the autobiographical treatise of Guruji\'s guru, Bhagwan Shri Vishweshwaraiah (Rishi Vachan Trust, 2001)'],
       ['**Naishkarmayopanishad** – A Treatise on Non-doing', 'A treatise on non-doing (naishkarmya)'],
       ['**Aishwaryopanishad** – A Treatise on Richness', 'Wealth and abundance'],
       ['**Sanyasopanishad** – A Treatise on Renunciation', 'Renunciation – true sannyasa'],

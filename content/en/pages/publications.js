@@ -6,6 +6,11 @@ module.exports = {
   "lead": "The **official list** of Guruji Shri Rishi Prabhakar's recorded talks, books and SSY bhajan albums – exactly as published on the Rishi Samskruti Vidya Kendra (RSVK) publications page, in the same order and spelling. Every list has its reference link underneath. To buy, RSVK gives: **99000 23241 / 99000 23275**.",
   "blocks": [
     {
+      "type": "note",
+      "kind": "info",
+      "text": "**What is inside each one?** A summary of every book, talk and bhajan album, quotes of Guruji's words, and where to read or hear them online – see the [Contents page](contents.html)."
+    },
+    {
       "type": "kv",
       "items": [
         [
@@ -71,7 +76,7 @@ module.exports = {
         [
           "6",
           "**Viswaroop Darshan**",
-          "The vision of the universal form – an integral view"
+          "Probably the autobiographical treatise of Guruji's guru, Bhagwan Shri Vishweshwaraiah (Rishi Vachan Trust, 2001)"
         ],
         [
           "7",
