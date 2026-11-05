@@ -27,11 +27,12 @@ module.exports = {
     notFoundText: 'The page you are looking for does not exist. Go to the home page.'
   },
   nav: [
-    { title: 'About SSY', items: ['index', 'intro', 'philosophy', 'benefits', 'faq'] },
-    { title: 'Guruji', items: ['guruji', 'books'] },
-    { title: 'Student path', items: ['phases', 'course', 'techniques', 'diet', 'sadhana'] },
-    { title: 'Organisation & programmes', items: ['rsvk', 'children', 'events', 'resources'] },
-    { title: 'Dictionary', items: ['glossary'] }
+    { title: 'About SSY', items: ['index', 'intro', 'philosophy', 'teachings', 'benefits', 'faq'] },
+    { title: 'Guruji & history', items: ['guruji', 'history', 'books', 'media'] },
+    { title: 'Student path', items: ['student', 'course', 'amc', 'bst', 'techniques', 'diet', 'sadhana', 'phases'] },
+    { title: 'Teacher path', items: ['teacher'] },
+    { title: 'Programmes & organisation', items: ['programs', 'children', 'rsvk', 'centres', 'events', 'resources', 'sources'] },
+    { title: 'Dictionary', items: ['dictionary', 'glossary'] }
   ],
   footer: {
     aboutTitle: 'About this site',
@@ -46,7 +47,7 @@ module.exports = {
       { label: 'Wikipedia – Rishi Prabhakar', href: 'https://en.wikipedia.org/wiki/Rishi_Prabhakar' }
     ],
     quickTitle: 'Quick links',
-    quick: ['intro', 'guruji', 'course', 'phases', 'glossary', 'faq'],
+    quick: ['intro', 'guruji', 'student', 'teacher', 'dictionary', 'faq'],
     credit: '© 2026 · Siddha Samadhi Yoga guide · a voluntary information project · source code on [GitHub](https://github.com/TheRandomDev9/SSY).'
   }
 };

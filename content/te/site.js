@@ -27,11 +27,12 @@ module.exports = {
     notFoundText: 'మీరు వెతుకుతున్న పేజీ లేదు. హోమ్ పేజీకి వెళ్ళండి.'
   },
   nav: [
-    { title: 'SSY గురించి', items: ['index', 'intro', 'philosophy', 'benefits', 'faq'] },
-    { title: 'గురూజీ', items: ['guruji', 'books'] },
-    { title: 'సాధకుడి మార్గం', items: ['phases', 'course', 'techniques', 'diet', 'sadhana'] },
-    { title: 'సంస్థ & కార్యక్రమాలు', items: ['rsvk', 'children', 'events', 'resources'] },
-    { title: 'నిఘంటువు', items: ['glossary'] }
+    { title: 'SSY గురించి', items: ['index', 'intro', 'philosophy', 'teachings', 'benefits', 'faq'] },
+    { title: 'గురూజీ & చరిత్ర', items: ['guruji', 'history', 'books', 'media'] },
+    { title: 'సాధకుడి మార్గం', items: ['student', 'course', 'amc', 'bst', 'techniques', 'diet', 'sadhana', 'phases'] },
+    { title: 'గురువు మార్గం', items: ['teacher'] },
+    { title: 'కార్యక్రమాలు & సంస్థ', items: ['programs', 'children', 'rsvk', 'centres', 'events', 'resources', 'sources'] },
+    { title: 'నిఘంటువు', items: ['dictionary', 'glossary'] }
   ],
   footer: {
     aboutTitle: 'ఈ సైట్ గురించి',
@@ -46,7 +47,7 @@ module.exports = {
       { label: 'Wikipedia – Rishi Prabhakar', href: 'https://en.wikipedia.org/wiki/Rishi_Prabhakar' }
     ],
     quickTitle: 'త్వరిత లింకులు',
-    quick: ['intro', 'guruji', 'course', 'phases', 'glossary', 'faq'],
+    quick: ['intro', 'guruji', 'student', 'teacher', 'dictionary', 'faq'],
     credit: '© 2026 · సిద్ధ సమాధి యోగ తెలుగు మార్గదర్శి · స్వచ్ఛంద సమాచార ప్రాజెక్ట్ · సోర్స్ కోడ్ [GitHub](https://github.com/TheRandomDev9/SSY)లో ఉంది.'
   }
 };

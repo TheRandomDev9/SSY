@@ -1,0 +1,192 @@
+/* media – పుస్తకాలు, క్యాసెట్లు, భజనలు, వీడియోలు, యాప్‌లు, పరిశోధనలు */
+module.exports = {
+  id: 'media',
+  title: 'SSY మీడియా గ్రంథాలయం – పుస్తకాలు, ఆడియో క్యాసెట్లు, భజనలు, వీడియోలు, మ్యాగజైన్లు, యాప్‌లు, పరిశోధన పత్రాలు',
+  short: 'మీడియా – ఆడియో, వీడియో, పుస్తకాలు',
+  lead: 'గురూజీ బోధనలు ఏ రూపాలలో లభిస్తాయో ఒకే చోట: RSVK ప్రచురించిన 13 పుస్తకాలు, 50+ ఆడియో ప్రవచన క్యాసెట్లు (పూర్తి జాబితా), 17 భజన ఆల్బమ్‌లు, RPIF ఈ-బుక్స్, "ఋషి వాణి" మాసపత్రిక, YouTube ఛానళ్ళు (వీడియో లింకులతో), ఆన్‌లైన్ ఆడియో, మొబైల్ యాప్‌లు మరియు SSYపై ప్రచురితమైన శాస్త్రీయ పరిశోధనలు.',
+  blocks: [
+    { type: 'note', kind: 'info', text: 'ఈ పేజీలోని అన్ని లింకులు బాహ్య వెబ్‌సైట్లకు (YouTube, archive.org, ప్రచురణ సంస్థలు) వెళ్తాయి. వీడియోలు ఇక్కడ ఎంబెడ్ చేయలేదు – లింక్ నొక్కితే కొత్త ట్యాబ్‌లో తెరుచుకుంటాయి. RSVK ప్రచురణలు (పుస్తకాలు, క్యాసెట్లు/CDలు) కొనుగోలుకు: **9900023241 / 9900023275**.' },
+
+    { type: 'h2', text: 'పుస్తకాలు' },
+    { type: 'h3', text: 'RSVK ప్రచురణలు – గురూజీ రచనలు (ఇంగ్లీష్)' },
+    { type: 'table', head: ['పుస్తకం', 'అంశం'], rows: [
+      ['**Amrut Ahar** (అమృత ఆహార్)', 'సహజ, పచ్చి ఆహారం; ఉపవాసం; శరీర స్వీయ-చికిత్స – SSY ఆహార తత్త్వం'],
+      ['**Yoga Starts with Samadhi**', 'SSY మూల తత్త్వం – "ఎంత చేసినా అది నాన్-డూయింగ్ స్థితిలోకి తీసుకెళ్ళలేదు"; యోగం సమాధితో మొదలవ్వాలి'],
+      ['**Living Life King Size on an Empty Wallet**', 'డబ్బు లేకుండా సమృద్ధి – విద్య, సంబంధాలు, ఆర్థికం అన్నిటిలో "ప్రయత్నం లేకుండా" నైపుణ్యం; గురూజీ జీవిత సాహసాలు (2012)'],
+      ['**Vision is Dangerous** / Building on Vision is Dangerous', '"జీవితం మిషన్ కాదు – భూమిని అన్వేషించడానికి వచ్చిన ఆనందమయ సందర్శన"; దృష్టి కాదు, ప్రేమ బంధమే సమూహాన్ని కలుపుతుంది'],
+      ['**Transcending Sex to Spirituality**', 'కామం నుండి ఆధ్యాత్మికతకు; బ్రహ్మచర్య భావన'],
+      ['**Viswaroop Darshan**', 'విశ్వరూప దర్శనం – సమగ్ర దృష్టి'],
+      ['**Naishkarmayopanishad** – A Treatise on Non-doing', 'నాన్-డూయింగ్ (నైష్కర్మ్యం)పై గ్రంథం'],
+      ['**Aishwaryopanishad** – A Treatise on Richness', 'సంపద, సమృద్ధి'],
+      ['**Sanyasopanishad** – A Treatise on Renunciation', 'త్యాగం – నిజమైన సన్యాసం'],
+      ['**Nayakatvopanishad** – A Treatise on Leadership', 'నాయకత్వం'],
+      ['**Vivahopanishad** – A Treatise on Marriage', 'వివాహం, దాంపత్యం'],
+      ['**Srujanatmaktvopanishad** – A Treatise on Creativity', 'సృజనాత్మకత'],
+      ['**Shishyopanishad** – A Treatise on Discipleship', 'శిష్యత్వం – గురు–శిష్య సంబంధం']
+    ] },
+    { type: 'h3', text: 'RPIF ఈ-బుక్స్ (PDF / MOBI / EPUB – rpif.org.in/books)' },
+    { type: 'cards', items: [
+      { icon: '📗', title: 'Rishi Wisdom – "అహం నుండి అహం బ్రహ్మాస్మి వరకు"', text: 'గురూజీ నోట్స్, డైరీలు, శిష్యులకు రాసిన లేఖల సంకలనం. "ఆయన బోధనలు 14 ఉపనిషత్తులు, ఐదు భగవద్గీతలు, లెక్కలేనన్ని గ్రంథాల విస్తృత అధ్యయనంపై ఆధారపడినవి… SSY 1989 నుండి 2014 వరకు లక్షలాది మందిని మార్చింది."' },
+      { icon: '👑', title: 'Live Life King Size', text: '"జీవితం ఒక అద్భుతమైన బాల్య ఆట అని, అన్ని పోరాటాలు జీవితం గురించిన తప్పు అవగాహనలో పాతుకున్నాయని అనుమానించే ఆత్మలకు అంకితం."' },
+      { icon: '👁️', title: 'Building on Vision is Dangerous', text: '"మన దృష్టితో ప్రేరేపితులై మనం అత్యాశ నుండి మరింత అత్యాశకు వెళ్తాం… జీవితం మిషన్ కాదు."' },
+      { icon: '🧘', title: 'Yoga Starts with Samadhi', text: '"సమకాలీన యోగం మొత్తం \'చేయడం\' గురించే… అది బండిని గుర్రం ముందు కట్టడం లాంటిది."' },
+      { icon: '📜', title: 'Rishi Upanishades', text: '"ఉపనిషత్ అంటే గురువు పాదాల వద్ద కూర్చోవడం… ఈ ఉపనిషత్తులు జీవిత రహస్యాలను ఒకేసారి జ్ఞానోదయంగా, సవాలుగా వెల్లడిస్తాయి. నెమ్మదిగా చదవండి, ధ్యానించండి, జీవించండి."' }
+    ] },
+    { type: 'h3', text: 'ఇతర పుస్తకాలు' },
+    { type: 'ul', items: [
+      '**Divine Satsang: My Divine Encounter with Guruji Rishi Prabhakarji** – అరుంధతి ఋషి ప్రభాకర్ (Partridge, ఏప్రిల్ 2015).',
+      '**ಆಯಾಸವಿಲ್ಲದೆ ಬದುಕಿರಿ, ಆರೋಗ್ಯವಾಗಿರಿ** (కన్నడ – "శ్రమ లేకుండా జీవించండి, ఆరోగ్యంగా ఉండండి") – గురూజీ చిత్రంతో బెంగళూరు పుస్తక దుకాణాలలో లభించే కన్నడ పుస్తకం; ఒక సాధకుడు "ఒక్కరోజులో చదివి" SSY కోర్సుకు వచ్చానని రాశారు.',
+      '**మనోజ్ లేఖి పుస్తకాలు** (manojlekhi.in/books) – SSY ఆధారిత ఆచరణాత్మక సాధనాలు.',
+      '"Miracles of SSY" (1980, ఋషి ప్రభాకర్, RSVK) – కర్ణాటక విశ్వవిద్యాలయ ILRD సిలబస్‌లో ఉదహరించిన గ్రంథం.',
+      'తెలుగు, కన్నడ, మరాఠీ, హిందీ అనువాదాలు కొన్ని స్థానిక కేంద్రాలలో లభిస్తాయి; తెలుగు SSY క్లాస్ ఆడియోలు తెలుగు రాష్ట్రాల కేంద్రాలలో వాడతారు.'
+    ] },
+
+    { type: 'h2', text: 'ఆడియో ప్రవచనాలు – RSVK క్యాసెట్ల పూర్తి జాబితా (ఇంగ్లీష్)' },
+    { type: 'p', text: 'గురూజీ ప్రవచనాలు మొదట ఆడియో క్యాసెట్లుగా (ముంబై "ఋషి వచన్ ట్రస్ట్" కేటలాగ్ కోడ్‌లతో – B, C, E, H సిరీస్), తరువాత CDలు/డిజిటల్ రూపంలో వచ్చాయి. RSVK ప్రచురణల పేజీలోని 53 శీర్షికలు – తెలుగు అర్థంతో:' },
+    { type: 'table', head: ['#', 'శీర్షిక', 'అర్థం / అంశం'], rows: [
+      ['1', 'Everything is Okay', 'అంతా బాగానే ఉంది – అంగీకారం'],
+      ['2', 'Nothing Matters', 'ఏదీ ముఖ్యం కాదు – నిర్లిప్తత'],
+      ['3', 'Introduction to SSY', 'SSY పరిచయం'],
+      ['4', 'AUM – The Mystic Mantra', 'ఓం – రహస్య మంత్రం'],
+      ['5', 'What is RSVK?', 'RSVK అంటే ఏమిటి?'],
+      ['6', 'What after SSY?', 'SSY తర్వాత ఏమిటి?'],
+      ['7', 'The Art of Learning', 'నేర్చుకునే కళ (1993, E-07 – archive.orgలో వినవచ్చు)'],
+      ['8', 'Enlightened Students and Managers', 'జ్ఞానోదయ విద్యార్థులు, మేనేజర్లు'],
+      ['9', 'Living by History vs Potential', 'చరిత్ర ద్వారా జీవించడం vs సామర్థ్యం ద్వారా'],
+      ['10', 'Blessing Everyone', 'అందరినీ ఆశీర్వదించడం'],
+      ['11', 'Freedom from Commitment', 'నిబద్ధత నుండి స్వేచ్ఛ'],
+      ['12', 'Everything is Yours', 'అంతా నీదే – ధర్మకర్తృత్వం'],
+      ['13', 'What is Moksha?', 'మోక్షం అంటే?'],
+      ['14', 'What is Karma Yoga?', 'కర్మయోగం అంటే?'],
+      ['15', 'Miracles of SSY', 'SSY అద్భుతాలు'],
+      ['16', 'The Path of Dharma', 'ధర్మ మార్గం (BST-2 నేపథ్యం)'],
+      ['17', 'The Secret of Richness – Part I to III', 'సంపద రహస్యం (3 భాగాలు)'],
+      ['18', 'Enlightenment is Beyond Practice', 'జ్ఞానోదయం సాధనకు అతీతం'],
+      ['19', 'Brahmacharya', 'బ్రహ్మచర్యం'],
+      ['20', 'Food, Fasting and Natural Cosmetics', 'ఆహారం, ఉపవాసం, సహజ సౌందర్య సాధనాలు'],
+      ['21', 'Communicating Love and Power of Silence', 'ప్రేమను తెలియజేయడం & మౌన శక్తి'],
+      ['22', 'From Corruption to Dedication', 'అవినీతి నుండి అంకితభావానికి'],
+      ['23', 'Growing in Inner Richness', 'లోపలి సంపదలో ఎదగడం'],
+      ['24', 'Truth is Justice', 'సత్యమే న్యాయం (BST-1 నేపథ్యం)'],
+      ['25', 'From Medication to Meditation', 'మందుల నుండి ధ్యానానికి'],
+      ['26', 'Guru Prasad', 'గురు ప్రసాదం'],
+      ['27', 'Developing Super Memory and Intelligence – Part I & II', 'అద్భుత జ్ఞాపకశక్తి, మేధస్సు (2 భాగాలు)'],
+      ['28', 'Developing Super Leaders', 'అద్భుత నాయకులను తయారు చేయడం'],
+      ['29', 'Gandhian Solution to Terrorism', 'ఉగ్రవాదానికి గాంధేయ పరిష్కారం'],
+      ['30', 'Kshatriya Sanyas', 'క్షత్రియ సన్యాసం'],
+      ['31', 'Are you Free or Karma Bound', 'మీరు స్వేచ్ఛగా ఉన్నారా, కర్మబద్ధులా?'],
+      ['32', 'Freedom (by Ravi ji)', 'స్వేచ్ఛ – రవిజీ ప్రవచనం'],
+      ['33', 'Role of Constitution in Law and Order – Part I & II', 'శాంతిభద్రతలలో రాజ్యాంగ పాత్ర (2 భాగాలు)'],
+      ['34', 'From Success to Total Failure', 'విజయం నుండి సంపూర్ణ వైఫల్యానికి'],
+      ['35', 'How to Overcome Stress', 'ఒత్తిడిని ఎలా అధిగమించాలి'],
+      ['36', 'Rashriya Yagna', 'రాష్ట్రీయ యజ్ఞం'],
+      ['37', 'Gurukripa', 'గురుకృప'],
+      ['38', 'Six Systems of Indian Philosophy', 'భారతీయ తత్త్వశాస్త్రంలోని షడ్దర్శనాలు'],
+      ['39', 'Guru Tatwa', 'గురు తత్త్వం'],
+      ['40', 'What is Bhakti?', 'భక్తి అంటే?'],
+      ['41', 'Cure for Cancer', 'క్యాన్సర్‌కు పరిష్కారం (సంస్థ వాదన)'],
+      ['42', 'Absolute Education (by Keerthi ji)', 'సంపూర్ణ విద్య – కీర్తిజీ ప్రవచనం'],
+      ['43', 'Building New World Order – Part I & II', 'నూతన ప్రపంచ వ్యవస్థ నిర్మాణం'],
+      ['44', 'East vs West – Part I & II', 'తూర్పు vs పడమర'],
+      ['45', 'From Disease to Super Health – Part I to III', 'రోగం నుండి అత్యుత్తమ ఆరోగ్యానికి (3 భాగాలు)'],
+      ['46', 'Indiscipline Yourself – Part I to V', 'మిమ్మల్ని మీరు "అక్రమశిక్షణ" చేసుకోండి (5 భాగాలు) – నియమాలకు అతీత స్వేచ్ఛ'],
+      ['47', 'Self Development to National Development – Series 1 to 3', 'స్వీయ వికాసం నుండి జాతీయ వికాసానికి (3 సిరీస్)'],
+      ['48', 'What you Eat? Why you Eat?', 'ఏమి తింటున్నారు? ఎందుకు తింటున్నారు?'],
+      ['49', 'Dharma, Artha, Kama, Moksha', 'ధర్మ, అర్థ, కామ, మోక్ష – చతుర్విధ పురుషార్థాలు'],
+      ['50', 'Education – Part I to III', 'విద్య (3 భాగాలు)'],
+      ['51', 'Creating Quality Time', 'నాణ్యమైన సమయాన్ని సృష్టించడం']
+    ] },
+    { type: 'h3', text: 'ఆన్‌లైన్‌లో వినదగిన ఆడియో' },
+    { type: 'links', items: [
+      { label: 'The Art of Learning (1993 క్యాసెట్, ~48 నిమిషాలు, MP3) – Internet Archive', href: 'https://archive.org/details/d_20210803', text: 'ఋషి వచన్ ట్రస్ట్ E-07 క్యాసెట్ డిజిటైజ్ చేసిన ఏకైక పూర్తి ప్రవచనం' },
+      { label: 'Discogs – Rishi Vachan Trust లేబుల్ (The Art of Learning E-07, Madhuriya Laasya B-4 …)', href: 'https://www.discogs.com/label/1716020-Rishi-Vachan-Trust' },
+      { label: 'RPIF Music – Khushi, Azaadi, Zeest (ఆల్బమ్)', href: 'https://rpif.org.in/rpif-music/' },
+      { label: 'RPIF Guided Meditation పాక్', href: 'https://rpif.org.in/guided-meditation/' }
+    ] },
+
+    { type: 'h2', text: 'భజనలు – RSVK ఆల్బమ్‌లు' },
+    { type: 'chips', items: ['Guru Pooja', 'Guru Priya (గురూజీకి ఇష్టమైన భజనలు)', 'Nirantar (అన్ని SSY భజనలు)', 'Madhuriya Laasya (ధ్యానం & నృత్య సంగీతం)', 'Bhakti Mantra', 'Sadguru Vandna', 'Sandhya Kinara (ప్రాణాయామ & ధ్యాన సంగీతం)', 'Shruti Stuti (కన్నడ భజనలు)', 'Paramavasya (గోపాల, కృష్ణ, శివ భజనలు)', 'Ravi Jule – Live at Mumbai', 'Annapurna Bhajans', 'Devotional Bliss', 'Amrutaadhara (తెలుగు)', 'Bhakti Ras (Ravi Jule)', 'Hari Darshan (Meeta Mehta)', 'Shree Hari Smaran', 'Chinni Chinni Krishnaiah (కన్నడ / హిందీ)'] },
+    { type: 'p', text: '**"అమృతాధార"** – RSVK ప్రచురించిన **తెలుగు భజనల ఆల్బమ్**. SSY సత్సంగ్‌లలో వినిపించే "ఆవో గురుదేవా", "గురు హమారే మన్ మందిర్ మే", "గురు బ్రహ్మ గురు విష్ణు" వంటి 10 భజనలు "గురు భక్తిరస్" సిరీస్‌గా YouTubeలో ఉన్నాయి (కింద చూడండి).' },
+
+    { type: 'h2', text: 'మ్యాగజైన్లు' },
+    { type: 'cards', items: [
+      { icon: '📰', title: '"సంస్కృతి ఋషి వాణి" – మాసపత్రిక (ssy.life)', text: 'SSY.life (ముంబై) ప్రచురించే నెలవారీ డిజిటల్ మ్యాగజైన్ (FlipHTML5 ఫ్లిప్‌బుక్‌లు, ~26 పేజీలు). లభించే సంచికలు: జూలై 2023 – మార్చి 2024 (ఉదా. మార్చి 2024 సంచిక అంశం: "నేటి ప్రపంచానికి గురుకులాలు"). ssy.life/guruvani.html పేజీలో "Monthly Rishi Vani" విభాగం.' },
+      { icon: '📘', title: '"Zeest" – త్రైమాసిక ఆధ్యాత్మిక-జీవనశైలి పత్రిక (RPIF)', text: '"జీస్త్" (పర్షియన్: జీవితం) – ఋషి ప్రభాకర్ ఇంటర్నేషనల్ ఫౌండేషన్ త్రైమాసిక పత్రిక; "సమృద్ధిగా, పూర్తిగా జీవించడానికి మేనిఫెస్టో". 2026లో "Zeest" బ్రాండ్‌తో కొత్త ప్రాజెక్ట్ ప్రకటన (House of Rishi Prabhakar).' },
+      { icon: '🗞️', title: 'Life Positive పత్రిక కథనాలు', text: '"The Spirit of Change" (ఆగస్టు 1996 – సుమా వరుఘీస్), "Do Nothing to Be Happy" (డిసెంబర్ 2008 – నయనతార హర్షవర్ధన్), "The Way of the Masters" (జనవరి 2007), "Steeped in Gratitude" (డిసెంబర్ 2017 – మనోజ్ లేఖి) – lifepositive.com లో ఉచితంగా చదవవచ్చు.' }
+    ] },
+
+    { type: 'h2', text: 'వీడియోలు – YouTube ఛానళ్ళు & ముఖ్య వీడియోలు' },
+    { type: 'h3', text: '1. RSVK అధికారిక ఛానల్ – "SSY-Rishi Samskruti Vidya Kendra Trust"' },
+    { type: 'p', text: '[youtube.com/@rishisamskrutividyakendra](https://www.youtube.com/@rishisamskrutividyakendra) – "RSVK బెంగళూరు నుండి ఏకైక అధికారిక YouTube పేజీ… నవరాత్రి, బ్రహ్మోత్సవం, VHS, HMP, SSY క్లాసులు, AMCలు, BSTలు, గురూజీ ఆరాధన ఇక్కడ అప్‌డేట్ అవుతాయి." (34 వీడియోలు, నవంబర్ 2026 నాటికి).' },
+    { type: 'links', items: [
+      { label: 'Guruji Sri Rishi Prabhakar ji speaks about Gayatri Mantra (గురూజీ – గాయత్రీ మంత్రం)', href: 'https://www.youtube.com/watch?v=tyrZBRsz-f4' },
+      { label: 'Miracles of Higher Responsibilities (గురూజీ ప్రవచనం – అత్యధిక వీక్షణలు)', href: 'https://www.youtube.com/watch?v=G7-vC89UBks' },
+      { label: 'What is Culture? (గురూజీ – సంస్కృతి అంటే?)', href: 'https://www.youtube.com/watch?v=BSxSvYcBGyA' },
+      { label: 'Is everyone expecting you to be a Role Model? (గురూజీ)', href: 'https://www.youtube.com/watch?v=o4VvIjgrD0A' },
+      { label: 'Words from the master! (గురూజీ)', href: 'https://www.youtube.com/watch?v=-8NZxkCJnjs' },
+      { label: 'Maralawadi Ashram Glimpses (మరళవాడి ఆశ్రమ దృశ్యాలు)', href: 'https://www.youtube.com/watch?v=vL1UI8aJV18' },
+      { label: 'Children SSY classes (చిల్డ్రన్ SSY తరగతులు)', href: 'https://www.youtube.com/watch?v=P9s9bWgmrq0' },
+      { label: 'Guruji plays badminton with Kids', href: 'https://www.youtube.com/watch?v=QzcL9RsxcBw' },
+      { label: 'HMP presentation on Chandana TV (కన్నడ TV కవరేజ్)', href: 'https://www.youtube.com/watch?v=IxmIdV_-xFA' },
+      { label: '100% Memory Program ప్లేలిస్ట్ (8 వీడియోలు – HMP 2026, విద్యార్థుల అనుభవాలు, డెమో)', href: 'https://www.youtube.com/playlist?list=PL-SObpAmrS9YZ7b_hKGgnHtb1XGgiXRtv' },
+      { label: 'VHS Goa 2025 ప్లేలిస్ట్ – విశ్వ హృదయ సమ్మేళనం 3 రోజులు (5+5+1.5 గంటలు)', href: 'https://www.youtube.com/playlist?list=PL-SObpAmrS9ZTCO5Nh1hqn65XafMAH5n0' },
+      { label: 'Shri Satyanarayana K (Satheesh Ji) – RSVK ట్రస్టీ సెక్రటరీ ప్రసంగం (VHS 2025)', href: 'https://www.youtube.com/watch?v=5VL6BU4uS0Y' }
+    ] },
+    { type: 'h3', text: '2. "The House of Rishi Prabhakar" – గురూజీ కుటుంబ ఛానల్ (RPIF)' },
+    { type: 'p', text: '[youtube.com/@thehouseofrishiprabhakar](https://www.youtube.com/@thehouseofrishiprabhakar) – 1980–2000ల గురూజీ ఆర్కైవ్ ప్రవచనాలు (ఇంగ్లీష్), కుటుంబ కార్యక్రమాలు, భజనలు.' },
+    { type: 'links', items: [
+      { label: 'The Levels of Wealth Consciousness (సంపద చైతన్య స్థాయిలు – గురూజీ)', href: 'https://www.youtube.com/watch?v=ovH5b-fW4nk' },
+      { label: 'Wealth Consciousness of a Brahmana', href: 'https://www.youtube.com/watch?v=SEM9awNLovs' },
+      { label: 'Wealth Consciousness of a Kshatriya', href: 'https://www.youtube.com/watch?v=ZhI5hzkQpYI' },
+      { label: 'Wealth Consciousness of a Vaishya', href: 'https://www.youtube.com/watch?v=rxJumcuZ6Wk' },
+      { label: 'Wealth Consciousness of a Shudra', href: 'https://www.youtube.com/watch?v=j3iQ6a3WaVQ' },
+      { label: 'Child of God – గురూజీ మార్గదర్శక ధ్యానం', href: 'https://www.youtube.com/watch?v=KoNFWA_vk6M' },
+      { label: 'Guru Poornima Blessings 2024', href: 'https://www.youtube.com/watch?v=JGNjdMN85Zs' },
+      { label: 'Guru Bhaktiras – భక్తి భజనల సిరీస్ (10 భజనలు: ఆవో గురుదేవా, గురు బ్రహ్మ గురు విష్ణు…)', href: 'https://www.youtube.com/playlist?list=PLawEB4MRHxartsk-P--ZcbcYNF1tX1lp0' },
+      { label: 'Siddhant Ji Pattabhishekam – విజయదశమి 2018, మరళవాడి ఆశ్రమం', href: 'https://www.youtube.com/watch?v=hBLYGgBFXoc' }
+    ] },
+    { type: 'h3', text: '3. SSY USA ఛానల్' },
+    { type: 'links', items: [
+      { label: "Guruji's Introduction (గురూజీ పరిచయం)", href: 'https://www.youtube.com/watch?v=cpv64aDNvys' },
+      { label: 'Infant Siddha Program (ISP) – 12K వీక్షణలు', href: 'https://www.youtube.com/watch?v=lz6PidEXHY8' },
+      { label: 'Gurukulam Way Of Life – గురుకుల జీవన విధానం', href: 'https://www.youtube.com/watch?v=RJBONqyyzmo' },
+      { label: 'Reversal of heart disease (గుండె జబ్బు రివర్సల్)', href: 'https://www.youtube.com/watch?v=VpzK5AqzYsI' },
+      { label: 'Meditation with Mudras – Part 1 (ముద్రలతో ధ్యానం)', href: 'https://www.youtube.com/watch?v=pUf0xX71xiY' },
+      { label: 'Unique relationship between Guru & Shishya', href: 'https://www.youtube.com/watch?v=KaqcDm1ocv0' },
+      { label: 'Introduction to Pre-TTC (నవంబర్ 2006) – టీచర్ ట్రైనింగ్ పరిచయం', href: 'https://www.youtube.com/watch?v=1Ep1n7m7tvk' },
+      { label: "Annaji's Speech – అన్నా హజారే ప్రసంగం, దక్షిణ కాలిఫోర్నియా 2013", href: 'https://www.youtube.com/watch?v=QBFChXbYquI' }
+    ] },
+    { type: 'h3', text: '4. SSY Life (ముంబై) & ఇతర ఛానళ్ళు' },
+    { type: 'links', items: [
+      { label: 'SSY PRANAYAM – SSY Life (2025)', href: 'https://www.youtube.com/watch?v=VMg0SLZeyVU' },
+      { label: 'GURU JI FILM – గురూజీపై చిన్న నివాళి చిత్రం', href: 'https://www.youtube.com/watch?v=LzH6p68Cl_I' },
+      { label: 'SSY Intro – Science of Silence Yog', href: 'https://www.youtube.com/watch?v=RbcOA95u9AU' },
+      { label: 'Pranic Diet – Fruit Salad రెసిపీ', href: 'https://www.youtube.com/watch?v=XvIc_xww8QM' },
+      { label: 'Ragi Malt రెసిపీ', href: 'https://www.youtube.com/watch?v=-oFs-Lp0iSk' },
+      { label: 'సిద్ధ సమాధి యోగ / గురు పూజ (తెలుగు)', href: 'https://www.youtube.com/watch?v=IB2aEF8ymFY', text: 'తెలుగులో దొరికిన ఏకైక SSY గురు పూజ వీడియో' },
+      { label: 'सिद्ध समाधि योग मार्गदर्शन – హిందీ (మనోజ్ లేఖి "Design Your Life")', href: 'https://www.youtube.com/watch?v=QB0OS1fP8Vg' },
+      { label: 'Maha Satsang with Guruji Rishi Prabhakarji – టోక్యో (సంక్షిప్తం)', href: 'https://www.youtube.com/watch?v=ap7c0vu8NVE' },
+      { label: 'Heart to Heart with Siddhant Rishi Prabhakar – డా. స్వరూప్ దత్తా ఇంటర్వ్యూ', href: 'https://www.youtube.com/watch?v=wDgpiPfOqdE' },
+      { label: 'Effortless Superfast Learning with 100% Retention – డెమో (అరుంధతి ప్రభాకర్ ఛానల్, 19K)', href: 'https://www.youtube.com/watch?v=WO_Lu0hPbxA' },
+      { label: 'ఋషి గురుకులం పుణె ఛానల్', href: 'https://www.youtube.com/@rishigurukulampune' }
+    ] },
+    { type: 'note', kind: 'info', text: 'గురూజీపై పూర్తి స్థాయి డాక్యుమెంటరీ గానీ, దూరదర్శన్/టీవీ ఇంటర్వ్యూ గానీ, ప్రత్యేక తెలుగు SSY ఛానల్ గానీ ఆన్‌లైన్‌లో లభించలేదు (నవంబర్ 2026 నాటికి). గురూజీ "ప్రచారంలో నమ్మకం లేని" వ్యక్తి కావడం ఒక కారణం – RPIF: "సంస్థ ఎప్పుడూ తక్కువ ప్రొఫైల్‌లో ఉంది, గురూజీ తనను తాను మార్కెట్ చేసుకోవడంలో నమ్మలేదు."' },
+
+    { type: 'h2', text: 'మొబైల్ యాప్‌లు' },
+    { type: 'cards', items: [
+      { icon: '📱', title: 'SSY Guruvani – Quotes of Wisdom (Android)', text: 'రాచిత్ టెక్నాలజీ (2014) రూపొందించిన గురూజీ సూక్తుల యాప్ – play.google.com లో "com.rachittechnology.ssyguruvani" (v4.26, 2025). అమెజాన్ అలెక్సా స్కిల్ "Siddha Samadhi Yoga Guruvani" కూడా ఉంది. iOS వెర్షన్ ఇప్పుడు యాప్ స్టోర్‌లో లేదు.' },
+      { icon: '📲', title: 'Liya యాప్ (Life Yessence Academy)', text: 'మనోజ్ లేఖి 2017 ఇంటర్వ్యూలో పేర్కొన్న యాప్ – ప్రస్తుతం యాప్ స్టోర్లలో లభించడం లేదు.' },
+      { icon: '💻', title: 'డిజిటల్ RCRT', text: '100% మెమరీ టెక్నిక్ ఆన్‌లైన్ వేదిక (పుణె, 2020) – rpif.org.in / thehouseofrishiprabhakar ద్వారా సమాచారం.' }
+    ] },
+
+    { type: 'h2', text: 'SSYపై శాస్త్రీయ పరిశోధనలు' },
+    { type: 'table', head: ['పరిశోధన', 'ఎవరు / ఎక్కడ', 'ఏమి కనుగొన్నారు'], rows: [
+      ['**Kozasa EH et al. (2008)** – "Evaluation of Siddha Samadhi Yoga for anxiety and depression symptoms: a preliminary study", Psychological Reports 103(1): 271–274. PMID 18982958', 'సైకోబయాలజీ విభాగం, UNIFESP (సావో పాలో, బ్రెజిల్); SSY టీచర్లు ఋషి ప్రభాకర్, లక్ష్మి కృష్ణన్, S. మోహన్‌దాస్ కు కృతజ్ఞతలు', 'ఆందోళన సమస్యలున్న 22 మంది (14 SSY, 8 వెయిటింగ్-లిస్ట్); 2 వారాల SSY (11 ప్రాణాయామాలు ~20 నిమిషాలు, వజ్రాసనంలో; 20 నిమిషాల సమాధి ధ్యానం; రోజుకు 2 సార్లు). ఒక నెల తర్వాత: డిప్రెషన్ −70% (కంట్రోల్ −24%), ట్రెయిట్ ఆందోళన −29% (కంట్రోల్ −1%, p=.001), స్టేట్ ఆందోళన −22%, టెన్షన్ −71%; శ్రేయస్సు పెరిగింది. 83 పరిశోధనలు దీన్ని ఉదహరించాయి (Cramer 2013/2018, Cabral 2011 మెటా-విశ్లేషణలతో సహా).'],
+      ['**Kozasa EH (2002)** – డాక్టరల్ థీసిస్, UNIFESP (పోర్చుగీస్)', 'మార్గదర్శకుడు జోసె రాబర్టో లెయిట్', 'ప్రాణాయామం మాత్రమే, సమాధి ధ్యానం మాత్రమే, రెండూ కలిపి (SSY), కంట్రోల్ – నాలుగు బృందాలు; అన్ని ప్రయోగ బృందాలలో ఆందోళన, డిప్రెషన్ తగ్గాయి; ధ్యాన బృందంలో ఏకాగ్రత ఎక్కువగా మెరుగుపడింది; ప్రాణాయామ బృందంలో స్టేట్ ఆందోళన స్పష్టంగా తగ్గింది.'],
+      ['**Saritha B, Kamini Devi, Vijaya Lakshmi (2003)** – "Adequacy of diet recommended in SSY camp", Indian J. Nutrition & Dietetics 40(8): 297–302 (M.Sc. థీసిస్ 1999)', 'ANGRAU హోమ్ సైన్స్ కళాశాల, హైదరాబాద్', 'రంగారెడ్డి జిల్లా (రామ్‌నగర్, తులసిభవన్) 2 శిబిరాలలో 90 మంది (15–45+); 13 రోజుల కోర్సు; రాత్రి భోజనం మొలకలు, పచ్చి కూరగాయలు, పండ్లు, గింజలు; చక్కెరకు బదులు బెల్లం, తేనె; శిబిరం చివరికి BP, గ్లూకోజ్ సాధారణ స్థాయికి; మహిళల హిమోగ్లోబిన్ 10.6 → 11.05; 75% మంది ఆహార విధానాన్ని కొనసాగించారు.'],
+      ['**Sreedevi K, Devaki PB, Bhushanam GV (2012)** – "Effect of SSY Camps on Health and Nutritional Status of Normal and Diabetic Subjects", J Diabetes Metab 3(5):195', 'జాతీయ పోషకాహార సంస్థ (NIN) హైదరాబాద్; SV యూనివర్సిటీ తిరుపతి; ANGRAU', 'మహబూబ్‌నగర్, తిరుపతిలో 18 రోజుల SSY శిబిరాలు; 30 సాధారణ + 30 మధుమేహ (NIDDM) పురుషులు (25–45). మధుమేహులలో భోజనానంతర గ్లూకోజ్ 233 → 198 mg/dl (−15%); BMI −4%; కొలెస్ట్రాల్ −4%; హిమోగ్లోబిన్ +7.5–12%; పీచు, విటమిన్ C, ఇనుము తీసుకోవడం పెరిగింది. పరిమితి: కంట్రోల్ బృందం లేదు.'],
+      ['**Sreedevi K et al. (2013)** – "…Obese and Diabetic Subjects", IJSRP 3(9)', 'అదే బృందం', 'ఊబకాయులలో BMI −7.8%, హిమోగ్లోబిన్ +14.7%; మధుమేహులలో అవే ఫలితాలు.']
+    ] },
+    { type: 'p', text: 'సారాంశం: SSYపై ఉన్న పరిశోధనలు చిన్నవి (22–90 మంది), కొన్ని కంట్రోల్ లేనివి – కానీ అన్నీ ఆందోళన, డిప్రెషన్, రక్తంలో చక్కెర, BMI, కొలెస్ట్రాల్, హిమోగ్లోబిన్‌లో సానుకూల మార్పులు చూపించాయి. "క్యాన్సర్ నయం" వంటి వాదనలపై పరిశోధనలు లేవు. పూర్తి వివరాలు [లాభాలు & పరిశోధన](benefits.html) పేజీలో; ఆధారాల జాబితా [ఆధారాలు](sources.html) పేజీలో.' }
+  ]
+};

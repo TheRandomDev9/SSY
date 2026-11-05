@@ -55,17 +55,18 @@ function navHtml(site, pages, current, cls) {
   }).join('') + '</ul>';
 }
 
-function orderedIds(site) { return site.nav.flatMap(g => g.items); }
+function orderedIds(site, pages) { return site.nav.flatMap(g => g.items).filter(id => !pages || pages[id]); }
 
 function pageHtml(lang, site, pages, page) {
   const base = lang.base;
-  const ids = orderedIds(site);
+  const ids = orderedIds(site, pages);
   const idx = ids.indexOf(page.id);
   const prev = idx > 0 ? pages[ids[idx - 1]] : null;
   const next = idx >= 0 && idx < ids.length - 1 ? pages[ids[idx + 1]] : null;
   const href = id => (id === 'index' ? 'index.html' : id + '.html');
   const other = LANGS.find(l => l.code !== lang.code);
-  const otherHref = (lang.code === 'te' ? 'en/' : '../') + href(page.id);
+  const otherHas = (AVAIL[other.code] || new Set()).has(page.id);
+  const otherHref = (lang.code === 'te' ? 'en/' : '../') + (otherHas ? href(page.id) : 'index.html');
   const toc = page.hero ? [] : tocOf(page.blocks);
   const title = page.id === 'index' ? site.meta.title : `${page.title} | ${site.meta.siteName}`;
   const desc = page.description || page.lead || site.meta.description;
@@ -175,6 +176,8 @@ rmrf(DIST); mkdirp(DIST);
 copyDir(path.join(ROOT, 'assets'), path.join(DIST, 'assets'));
 fs.writeFileSync(path.join(DIST, '.nojekyll'), '');
 const sitemap = [];
+const AVAIL = {};
+for (const l of LANGS) { AVAIL[l.code] = new Set(fs.readdirSync(path.join(ROOT, 'content', l.code, 'pages')).filter(f => f.endsWith('.js')).map(f => require(path.join(ROOT, 'content', l.code, 'pages', f)).id)); }
 for (const lang of LANGS) {
   const { site, pages } = loadLang(lang.code);
   const outDir = path.join(DIST, lang.dir); mkdirp(outDir);
@@ -200,7 +203,7 @@ for (const lang of LANGS) {
       if (!text) return;
       searchIndex.push({ p: page.short || page.title, h: s.h, u: file + (s.id ? '#' + s.id : ''), t: text.slice(0, 4000) });
     });
-    if (page.lead) searchIndex.push({ p: page.short || page.title, h: '', u: file, t: page.lead });
+    if (page.lead) searchIndex.push({ p: page.short || page.title, h: '', u: file, t: textOf([{ type: 'p', text: page.lead }]) });
   }
   fs.writeFileSync(path.join(outDir, `search-${lang.code}.json`), JSON.stringify(searchIndex));
   if (lang.code === 'te') {
