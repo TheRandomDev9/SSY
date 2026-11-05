@@ -204,7 +204,7 @@ module.exports = {
         {
           "meta": "Retreat",
           "title": "Residential silence retreat (AMC) – 3½ to 4 days",
-          "text": "Group silence at an ashram – a break from talking, (partly) from food and from goal-orientation. \"Silence with the eyes open\". This is the peak of the basic course. Details in [SSY phases](#phases)."
+          "text": "Group silence at an ashram – a break from talking, (partly) from food and from goal-orientation. \"Silence with the eyes open\". This is the peak of the basic course. Details in [SSY phases](phases.html)."
         }
       ]
     },

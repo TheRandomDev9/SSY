@@ -99,7 +99,7 @@ module.exports = {
     },
     {
       "type": "p",
-      "text": "If the body is not pure the mind cannot be still. During the SSY course participants eat only **fruit, juices and raw food** for a number of days. Guruji's book **\"Amrut Ahar\"** explains natural food, fasting and the body's self-healing capacity. Details in the [Diet](#diet) section."
+      "text": "If the body is not pure the mind cannot be still. During the SSY course participants eat only **fruit, juices and raw food** for a number of days. Guruji's book **\"Amrut Ahar\"** explains natural food, fasting and the body's self-healing capacity. Details in the [Diet](diet.html) section."
     },
     {
       "type": "h3",

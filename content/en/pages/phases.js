@@ -3,7 +3,7 @@ module.exports = {
   "id": "phases",
   "title": "The SSY journey phase by phase – from the basic course to teacher training",
   "short": "SSY phases – start to finish",
-  "lead": "SSY is not one course – it is a ladder. Each phase builds on the one before. The official sequence: **SSY → AMC (repeated) → BST-1 / BST-2 → TTC (4 phases)**. Alongside these there are special camps (Kaya Kalpa Kriya, 100% Memory, Upanayana camp) and the path of seva.",
+  "lead": "SSY is not one course – it is a ladder. Each phase builds on the one before. The official sequence: **SSY → AMC (repeated) → BST-1 / BST-2 → TTC (Phases 1 → 2A → 2B → 3 → 4)**. Alongside these there are special camps (Kaya Kalpa Kriya, 100% Memory, Upanayana camp) and the path of seva.",
   "blocks": [
     {
       "type": "h3",
@@ -33,7 +33,7 @@ module.exports = {
           "text": "The power of dharma; \"truth without love has hidden untruth\". For those who completed BST-1."
         },
         {
-          "title": "TTC – Teachers Training Course (4 phases)",
+          "title": "TTC – Teachers Training Course (Phases 1, 2A, 2B, 3, 4)",
           "meta": "Katarkhadak ashram, Pune",
           "text": "Becoming an SSY teacher – seva, sadhana, \"Nobody sadhana\", padayatra, living on minimal means."
         }
@@ -45,7 +45,7 @@ module.exports = {
     },
     {
       "type": "p",
-      "text": "Full details are in the [Basic course](#course) section above. In short: 14 sessions (2–3 hours each) plus a 3½–4 day residential silence retreat at the end. Without completing it there is no eligibility for any later phase."
+      "text": "Full details are in the [Basic course](course.html) section above. In short: 14 sessions (2–3 hours each) plus a 3½–4 day residential silence retreat at the end. Without completing it there is no eligibility for any later phase."
     },
     {
       "type": "h3",
@@ -115,11 +115,11 @@ module.exports = {
     },
     {
       "type": "h3",
-      "text": "Phase 4: TTC – Teachers Training Course (4 phases)"
+      "text": "Phase 4: TTC – Teachers Training Course (Phases 1, 2A, 2B, 3, 4)"
     },
     {
       "type": "p",
-      "text": "This is where Guruji's vision that \"everyone can be a teacher\" is put into practice. TTC is held in four phases at the Katarkhadak ashram near Pune:"
+      "text": "This is where Guruji's vision that \"everyone can be a teacher\" is put into practice. TTC is held at the Katarkhadak ashram near Pune. The official page lists four phases, with Phase 2 run in two parts (2A and 2B) – so practitioners usually count five steps. Full requirements for every phase are on the [Teacher path](teacher.html) page."
     },
     {
       "type": "steps",
@@ -130,7 +130,7 @@ module.exports = {
           "text": "SSY + AMC completed; one 10-day residential Children's SSY camp; a puja-chanting test; one \"Being with Guruji\" programme; volunteering at 2 SSY classes and 2 AMCs. Unmarried youngsters stay one month at the Maralwadi ashram and learn Japanese or Spanish. Oath-taking in satsang."
         },
         {
-          "meta": "TTC Phase 2",
+          "meta": "TTC Phase 2 (2A & 2B)",
           "title": "Self-sufficiency & conducting classes",
           "text": "Financially self-sufficient; two Children's SSY classes conducted; BST-1 and 2 completed in the past year; willingness to join an RSVK commune."
         },

@@ -109,7 +109,7 @@ module.exports = {
     },
     {
       "type": "p",
-      "text": "The clear lesson from practitioners' accounts: **the benefits last not because of the course but because of the practice after it.** Daily pranayama and meditation, the food guidelines and an AMC every 3 months – keep these up and the benefits grow; stop and they gradually fade. Details in the [Daily sadhana](#sadhana) section."
+      "text": "The clear lesson from practitioners' accounts: **the benefits last not because of the course but because of the practice after it.** Daily pranayama and meditation, the food guidelines and an AMC every 3 months – keep these up and the benefits grow; stop and they gradually fade. Details in the [Daily sadhana](sadhana.html) section."
     },
     {
       "type": "h3",

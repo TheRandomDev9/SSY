@@ -121,7 +121,7 @@ module.exports = {
         {
           "term": "TTC",
           "sa": "",
-          "def": "Teachers Training Course – the 4-phase SSY teacher training at the Katarkhadak ashram, Pune."
+          "def": "Teachers Training Course – SSY teacher training in Phases 1 → 2A → 2B → 3 → 4 at the Katarkhadak ashram, Pune. See the [Teacher path](teacher.html)."
         },
         {
           "term": "Acharya",

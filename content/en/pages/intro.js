@@ -58,7 +58,7 @@ module.exports = {
         "**Employees, business owners, professionals** – stress-free leadership, clear decisions, energetic work.",
         "**Homemakers and parents** – love, patience and health in family relationships.",
         "**Elderly people** – relief in sleep, blood pressure and breathing problems; peace of mind.",
-        "**Children and youth** – dedicated \"Children's SSY\" and the \"Infant Siddha Program\" (see [Children & education](#children)).",
+        "**Children and youth** – dedicated \"Children's SSY\" and the \"Infant Siddha Program\" (see [Children & education](children.html)).",
         "**Spiritual seekers** – anyone, regardless of religion, caste or language. SSY is not a religion; people of every faith take part."
       ]
     },
@@ -111,7 +111,7 @@ module.exports = {
       "type": "note",
       "kind": "info",
       "title": "About this site",
-      "text": "This is an **independent, unofficial** guide created to bring together everything about SSY in one place (Telugu first, with this English mirror). It is compiled from the official RSVK website, Guruji's interviews, press reports and the experiences of past participants. Course details (days, timings, fees) vary by centre – check the [official resources](#resources) for the latest information."
+      "text": "This is an **independent, unofficial** guide created to bring together everything about SSY in one place (Telugu first, with this English mirror). It is compiled from the official RSVK website, Guruji's interviews, press reports and the experiences of past participants. Course details (days, timings, fees) vary by centre – check the [official resources](resources.html) for the latest information."
     }
   ]
 };

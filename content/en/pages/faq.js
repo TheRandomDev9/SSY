@@ -95,7 +95,7 @@ module.exports = {
       "items": [
         {
           "q": "How much daily practice is needed after the course?",
-          "a": "The recommendation: morning pranayama (30–45 minutes) plus 15 minutes of Samadhi meditation one to three times a day. If time is short, shorten the pranayama and keep the meditation. Details in the [Daily sadhana](#sadhana) section."
+          "a": "The recommendation: morning pranayama (30–45 minutes) plus 15 minutes of Samadhi meditation one to three times a day. If time is short, shorten the pranayama and keep the meditation. Details in the [Daily sadhana](sadhana.html) section."
         },
         {
           "q": "Can I do the course again?",
@@ -103,11 +103,11 @@ module.exports = {
         },
         {
           "q": "How do I become an SSY teacher?",
-          "a": "After completing SSY and AMC, volunteering at classes, running a Children's SSY camp and completing BST-1 and 2, you can take the 4-phase Teachers Training Course (TTC) at the Katarkhadak ashram, Pune. Details in the [SSY phases](#phases) section. Teachers are unpaid – it is a path of seva."
+          "a": "After completing SSY and AMC, volunteering at classes, running a Children's SSY camp and completing BST-1 and 2, you can take the Teachers Training Course (TTC) at the Katarkhadak ashram, Pune – Phases 1 → 2A → 2B → 3 → 4. The requirements for every phase are on the [Teacher path](teacher.html) page. Teachers are unpaid – it is a path of seva."
         },
         {
           "q": "What about SSY for my children?",
-          "a": "A 10-day Children's SSY for ages 7–12 (1–2 hours a day); the Infant Siddha Program for parents of young children; a 30-day 100% Memory summer camp for classes 7–10. Details in the [Children & education](#children) section."
+          "a": "A 10-day Children's SSY for ages 7–12 (1–2 hours a day); the Infant Siddha Program for parents of young children; a 30-day 100% Memory summer camp for classes 7–10. Details in the [Children & education](children.html) section."
         }
       ]
     },

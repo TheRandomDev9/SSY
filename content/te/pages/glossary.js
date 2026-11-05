@@ -121,7 +121,7 @@ module.exports = {
         {
           "term": "TTC",
           "sa": "Teachers Training Course",
-          "def": "4 దశల SSY టీచర్ శిక్షణ – కటర్‌ఖడక్ ఆశ్రమం, పుణె."
+          "def": "SSY టీచర్ శిక్షణ – దశలు 1 → 2A → 2B → 3 → 4; కటర్‌ఖడక్ ఆశ్రమం, పుణె. [గురువు మార్గం](teacher.html)."
         },
         {
           "term": "ఆచార్య",

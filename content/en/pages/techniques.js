@@ -63,7 +63,7 @@ module.exports = {
     },
     {
       "type": "p",
-      "text": "For purifying the annamaya kosha (the physical body), the food class introduces the hatha-yoga **shatkriyas** (six cleansing practices – simple forms such as jala neti and kapalabhati). Raw food, fasting and herbal drinks are part of this purification. Details in the [Diet](#diet) section."
+      "text": "For purifying the annamaya kosha (the physical body), the food class introduces the hatha-yoga **shatkriyas** (six cleansing practices – simple forms such as jala neti and kapalabhati). Raw food, fasting and herbal drinks are part of this purification. Details in the [Diet](diet.html) section."
     },
     {
       "type": "h3",
@@ -105,7 +105,7 @@ module.exports = {
     },
     {
       "type": "p",
-      "text": "A body-and-prana rejuvenation kriya that Guruji developed during his years in Puducherry (after 2004). It is not part of the basic course; it is taught in special camps. Details in [SSY phases](#phases)."
+      "text": "A body-and-prana rejuvenation kriya that Guruji developed during his years in Puducherry (after 2004). It is not part of the basic course; it is taught in special camps. Details in [SSY phases](phases.html)."
     }
   ]
 };
