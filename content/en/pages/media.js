@@ -1,0 +1,192 @@
+/* media – books, cassettes, bhajans, videos, apps, research */
+module.exports = {
+  id: 'media',
+  title: 'SSY media library – books, audio cassettes, bhajans, videos, magazines, apps and research papers',
+  short: 'Media – audio, video, books',
+  lead: 'All the forms in which Guruji\'s teachings are available, in one place: 13 books published by RSVK, 51 audio discourse cassettes (full list), 17 bhajan albums, RPIF e-books, the monthly magazine "Rishi Vani", YouTube channels (with video links), online audio, mobile apps and the scientific research published on SSY.',
+  blocks: [
+    { type: 'note', kind: 'info', text: 'All links on this page go to external websites (YouTube, archive.org, publishers). The videos are not embedded here – clicking a link opens it in a new tab. To buy RSVK publications (books, cassettes/CDs): **9900023241 / 9900023275**.' },
+
+    { type: 'h2', text: 'Books' },
+    { type: 'h3', text: 'RSVK publications – Guruji\'s writings (English)' },
+    { type: 'table', head: ['Book', 'Theme'], rows: [
+      ['**Amrut Ahar** ("nectar food")', 'Natural, raw food; fasting; the body\'s self-healing – SSY\'s philosophy of food'],
+      ['**Yoga Starts with Samadhi**', 'The root philosophy of SSY – "however much you do, it cannot take you into the state of non-doing"; yoga has to begin with Samadhi'],
+      ['**Living Life King Size on an Empty Wallet**', 'Abundance without money – "effortless" mastery in education, relationships and finances alike; Guruji\'s life adventures (2012)'],
+      ['**Vision is Dangerous** / Building on Vision is Dangerous', '"Life is not a mission – it is a joyful visit to explore the earth"; it is the bond of love, not a vision, that holds a community together'],
+      ['**Transcending Sex to Spirituality**', 'From desire to spirituality; the idea of brahmacharya'],
+      ['**Viswaroop Darshan**', 'The vision of the universal form – an integral view'],
+      ['**Naishkarmayopanishad** – A Treatise on Non-doing', 'A treatise on non-doing (naishkarmya)'],
+      ['**Aishwaryopanishad** – A Treatise on Richness', 'Wealth and abundance'],
+      ['**Sanyasopanishad** – A Treatise on Renunciation', 'Renunciation – true sannyasa'],
+      ['**Nayakatvopanishad** – A Treatise on Leadership', 'Leadership'],
+      ['**Vivahopanishad** – A Treatise on Marriage', 'Marriage and married life'],
+      ['**Srujanatmaktvopanishad** – A Treatise on Creativity', 'Creativity'],
+      ['**Shishyopanishad** – A Treatise on Discipleship', 'Discipleship – the guru–disciple relationship']
+    ] },
+    { type: 'h3', text: 'RPIF e-books (PDF / MOBI / EPUB – rpif.org.in/books)' },
+    { type: 'cards', items: [
+      { icon: '📗', title: 'Rishi Wisdom – "From Aham to Aham Brahmasmi"', text: 'A compilation of Guruji\'s notes, diaries and letters to his disciples. "His teachings are based on a wide study of 14 Upanishads, five Bhagavad Gitas and countless scriptures… SSY transformed lakhs of people from 1989 to 2014."' },
+      { icon: '👑', title: 'Live Life King Size', text: '"Dedicated to the souls who suspect that life is a wonderful childhood game, and that all struggle is rooted in a wrong understanding of life."' },
+      { icon: '👁️', title: 'Building on Vision is Dangerous', text: '"Inspired by our vision, we go from greed to more greed… Life is not a mission."' },
+      { icon: '🧘', title: 'Yoga Starts with Samadhi', text: '"Contemporary yoga is all about \'doing\'… that is like putting the cart before the horse."' },
+      { icon: '📜', title: 'Rishi Upanishades', text: '"Upanishad means sitting at the feet of the master… These Upanishads reveal the secrets of life as an enlightenment and a challenge at the same time. Read slowly, contemplate, live."' }
+    ] },
+    { type: 'h3', text: 'Other books' },
+    { type: 'ul', items: [
+      '**Divine Satsang: My Divine Encounter with Guruji Rishi Prabhakarji** – Arundhati Rishi Prabhakar (Partridge, April 2015).',
+      '**ಆಯಾಸವಿಲ್ಲದೆ ಬದುಕಿರಿ, ಆರೋಗ್ಯವಾಗಿರಿ** (Kannada – "Live without fatigue, stay healthy") – a Kannada book with Guruji\'s picture, sold in Bengaluru bookshops; one practitioner wrote that he "read it in a single day" and then came to the SSY course.',
+      '**Manoj Lekhi\'s books** (manojlekhi.in/books) – practical tools based on SSY.',
+      '"Miracles of SSY" (1980, Rishi Prabhakar, RSVK) – a work cited in the ILRD syllabus of Karnatak University.',
+      'Some Telugu, Kannada, Marathi and Hindi translations are available at local centres; Telugu SSY class audios are used at centres in the Telugu states.'
+    ] },
+
+    { type: 'h2', text: 'Audio discourses – the full list of RSVK cassettes (English)' },
+    { type: 'p', text: 'Guruji\'s discourses first came out as audio cassettes (with the catalogue codes of the Mumbai "Rishi Vachan Trust" – the B, C, E and H series), and later as CDs and in digital form. The 51 titles (multi-part talks share one row) on the RSVK publications page, with a short description of each:' },
+    { type: 'table', head: ['#', 'Title', 'Meaning / theme'], rows: [
+      ['1', 'Everything is Okay', 'Acceptance'],
+      ['2', 'Nothing Matters', 'Detachment'],
+      ['3', 'Introduction to SSY', 'A first overview of the programme'],
+      ['4', 'AUM – The Mystic Mantra', 'The sacred syllable Om'],
+      ['5', 'What is RSVK?', 'About the organisation'],
+      ['6', 'What after SSY?', 'The path after the basic course'],
+      ['7', 'The Art of Learning', 'How to learn (1993, E-07 – can be heard on archive.org)'],
+      ['8', 'Enlightened Students and Managers', 'Enlightenment in study and management'],
+      ['9', 'Living by History vs Potential', 'Living from the past vs living from one\'s potential'],
+      ['10', 'Blessing Everyone', 'Giving blessings to all'],
+      ['11', 'Freedom from Commitment', 'Release from obligations'],
+      ['12', 'Everything is Yours', 'Trusteeship'],
+      ['13', 'What is Moksha?', 'Liberation'],
+      ['14', 'What is Karma Yoga?', 'The yoga of action'],
+      ['15', 'Miracles of SSY', 'The wonders of SSY'],
+      ['16', 'The Path of Dharma', 'The way of dharma (background to BST-2)'],
+      ['17', 'The Secret of Richness – Part I to III', 'The secret of wealth (3 parts)'],
+      ['18', 'Enlightenment is Beyond Practice', 'Enlightenment lies beyond sadhana'],
+      ['19', 'Brahmacharya', 'Celibacy'],
+      ['20', 'Food, Fasting and Natural Cosmetics', 'Diet, fasting and natural beauty care'],
+      ['21', 'Communicating Love and Power of Silence', 'Expressing love & the power of silence'],
+      ['22', 'From Corruption to Dedication', 'From dishonesty to a committed life'],
+      ['23', 'Growing in Inner Richness', 'Growing in inner wealth'],
+      ['24', 'Truth is Justice', 'Truth as justice (background to BST-1)'],
+      ['25', 'From Medication to Meditation', 'From medicines to meditation'],
+      ['26', 'Guru Prasad', 'The guru\'s blessed offering'],
+      ['27', 'Developing Super Memory and Intelligence – Part I & II', 'Extraordinary memory and intelligence (2 parts)'],
+      ['28', 'Developing Super Leaders', 'Creating extraordinary leaders'],
+      ['29', 'Gandhian Solution to Terrorism', 'A Gandhian answer to terrorism'],
+      ['30', 'Kshatriya Sanyas', 'The renunciation of the warrior'],
+      ['31', 'Are you Free or Karma Bound', 'Freedom vs bondage to karma'],
+      ['32', 'Freedom (by Ravi ji)', 'Liberty – a discourse by Raviji'],
+      ['33', 'Role of Constitution in Law and Order – Part I & II', 'The constitution\'s role in law and order (2 parts)'],
+      ['34', 'From Success to Total Failure', 'From success to complete failure'],
+      ['35', 'How to Overcome Stress', 'Overcoming tension'],
+      ['36', 'Rashriya Yagna', 'A yajna for the nation'],
+      ['37', 'Gurukripa', 'The guru\'s grace'],
+      ['38', 'Six Systems of Indian Philosophy', 'The six darshanas of Indian philosophy'],
+      ['39', 'Guru Tatwa', 'The principle of the guru'],
+      ['40', 'What is Bhakti?', 'Devotion'],
+      ['41', 'Cure for Cancer', 'A remedy for cancer (the organisation\'s claim)'],
+      ['42', 'Absolute Education (by Keerthi ji)', 'Complete education – a discourse by Keerthiji'],
+      ['43', 'Building New World Order – Part I & II', 'Creating a new global order'],
+      ['44', 'East vs West – Part I & II', 'Eastern and Western ways compared'],
+      ['45', 'From Disease to Super Health – Part I to III', 'From illness to the best of health (3 parts)'],
+      ['46', 'Indiscipline Yourself – Part I to V', '"Un-discipline" yourself (5 parts) – freedom beyond rules'],
+      ['47', 'Self Development to National Development – Series 1 to 3', 'From personal growth to national growth (3 series)'],
+      ['48', 'What you Eat? Why you Eat?', 'What we eat and why'],
+      ['49', 'Dharma, Artha, Kama, Moksha', 'The four aims of life (purusharthas)'],
+      ['50', 'Education – Part I to III', 'On learning and schooling (3 parts)'],
+      ['51', 'Creating Quality Time', 'Making time that counts']
+    ] },
+    { type: 'h3', text: 'Audio you can listen to online' },
+    { type: 'links', items: [
+      { label: 'The Art of Learning (1993 cassette, ~48 minutes, MP3) – Internet Archive', href: 'https://archive.org/details/d_20210803', text: 'Rishi Vachan Trust cassette E-07 – the only complete discourse that has been digitised' },
+      { label: 'Discogs – the Rishi Vachan Trust label (The Art of Learning E-07, Madhuriya Laasya B-4 …)', href: 'https://www.discogs.com/label/1716020-Rishi-Vachan-Trust' },
+      { label: 'RPIF Music – Khushi, Azaadi, Zeest (album)', href: 'https://rpif.org.in/rpif-music/' },
+      { label: 'RPIF Guided Meditation pack', href: 'https://rpif.org.in/guided-meditation/' }
+    ] },
+
+    { type: 'h2', text: 'Bhajans – RSVK albums' },
+    { type: 'chips', items: ['Guru Pooja', 'Guru Priya (Guruji\'s favourite bhajans)', 'Nirantar (all the SSY bhajans)', 'Madhuriya Laasya (meditation & dance music)', 'Bhakti Mantra', 'Sadguru Vandna', 'Sandhya Kinara (pranayama & meditation music)', 'Shruti Stuti (Kannada bhajans)', 'Paramavasya (Gopala, Krishna and Shiva bhajans)', 'Ravi Jule – Live at Mumbai', 'Annapurna Bhajans', 'Devotional Bliss', 'Amrutaadhara (Telugu)', 'Bhakti Ras (Ravi Jule)', 'Hari Darshan (Meeta Mehta)', 'Shree Hari Smaran', 'Chinni Chinni Krishnaiah (Kannada / Hindi)'] },
+    { type: 'p', text: '**"Amrutaadhara"** – a **Telugu bhajan album** published by RSVK. Ten bhajans heard at SSY satsangs, such as "Aao Gurudeva", "Guru Hamare Man Mandir Mein" and "Guru Brahma Guru Vishnu", are on YouTube as the "Guru Bhaktiras" series (see below).' },
+
+    { type: 'h2', text: 'Magazines' },
+    { type: 'cards', items: [
+      { icon: '📰', title: '"Samskruti Rishi Vani" – monthly magazine (ssy.life)', text: 'A monthly digital magazine published by SSY.life (Mumbai) (FlipHTML5 flipbooks, ~26 pages). Issues available: July 2023 – March 2024 (for example, the theme of the March 2024 issue: "Gurukulams for today\'s world"). The "Monthly Rishi Vani" section is on the ssy.life/guruvani.html page.' },
+      { icon: '📘', title: '"Zeest" – a quarterly spiritual-lifestyle magazine (RPIF)', text: '"Zeest" (Persian for "life") – the quarterly magazine of the Rishi Prabhakar International Foundation; "a manifesto for living abundantly and fully". In 2026 a new project under the "Zeest" brand was announced (House of Rishi Prabhakar).' },
+      { icon: '🗞️', title: 'Articles in Life Positive magazine', text: '"The Spirit of Change" (August 1996 – Suma Varughese), "Do Nothing to Be Happy" (December 2008 – Nayantara Harshvardhan), "The Way of the Masters" (January 2007), "Steeped in Gratitude" (December 2017 – Manoj Lekhi) – free to read on lifepositive.com.' }
+    ] },
+
+    { type: 'h2', text: 'Videos – YouTube channels & key videos' },
+    { type: 'h3', text: '1. The official RSVK channel – "SSY-Rishi Samskruti Vidya Kendra Trust"' },
+    { type: 'p', text: '[youtube.com/@rishisamskrutividyakendra](https://www.youtube.com/@rishisamskrutividyakendra) – "The only official YouTube page from RSVK Bengaluru… Navaratri, Brahmotsav, VHS, HMP, SSY classes, AMCs, BSTs and Guruji Aradhana are updated here." (34 videos as of November 2026).' },
+    { type: 'links', items: [
+      { label: 'Guruji Sri Rishi Prabhakar ji speaks about Gayatri Mantra', href: 'https://www.youtube.com/watch?v=tyrZBRsz-f4' },
+      { label: 'Miracles of Higher Responsibilities (a discourse by Guruji – the most viewed)', href: 'https://www.youtube.com/watch?v=G7-vC89UBks' },
+      { label: 'What is Culture? (Guruji)', href: 'https://www.youtube.com/watch?v=BSxSvYcBGyA' },
+      { label: 'Is everyone expecting you to be a Role Model? (Guruji)', href: 'https://www.youtube.com/watch?v=o4VvIjgrD0A' },
+      { label: 'Words from the master! (Guruji)', href: 'https://www.youtube.com/watch?v=-8NZxkCJnjs' },
+      { label: 'Maralawadi Ashram Glimpses', href: 'https://www.youtube.com/watch?v=vL1UI8aJV18' },
+      { label: 'Children SSY classes', href: 'https://www.youtube.com/watch?v=P9s9bWgmrq0' },
+      { label: 'Guruji plays badminton with Kids', href: 'https://www.youtube.com/watch?v=QzcL9RsxcBw' },
+      { label: 'HMP presentation on Chandana TV (Kannada TV coverage)', href: 'https://www.youtube.com/watch?v=IxmIdV_-xFA' },
+      { label: '100% Memory Program playlist (8 videos – HMP 2026, students\' experiences, a demo)', href: 'https://www.youtube.com/playlist?list=PL-SObpAmrS9YZ7b_hKGgnHtb1XGgiXRtv' },
+      { label: 'VHS Goa 2025 playlist – the three days of the Vishwa Hrudaya Sammelana (5 + 5 + 1.5 hours)', href: 'https://www.youtube.com/playlist?list=PL-SObpAmrS9ZTCO5Nh1hqn65XafMAH5n0' },
+      { label: 'Shri Satyanarayana K (Satheesh Ji) – talk by the RSVK trustee-secretary (VHS 2025)', href: 'https://www.youtube.com/watch?v=5VL6BU4uS0Y' }
+    ] },
+    { type: 'h3', text: '2. "The House of Rishi Prabhakar" – the channel of Guruji\'s family (RPIF)' },
+    { type: 'p', text: '[youtube.com/@thehouseofrishiprabhakar](https://www.youtube.com/@thehouseofrishiprabhakar) – archive discourses by Guruji from the 1980s–2000s (in English), family events and bhajans.' },
+    { type: 'links', items: [
+      { label: 'The Levels of Wealth Consciousness (Guruji)', href: 'https://www.youtube.com/watch?v=ovH5b-fW4nk' },
+      { label: 'Wealth Consciousness of a Brahmana', href: 'https://www.youtube.com/watch?v=SEM9awNLovs' },
+      { label: 'Wealth Consciousness of a Kshatriya', href: 'https://www.youtube.com/watch?v=ZhI5hzkQpYI' },
+      { label: 'Wealth Consciousness of a Vaishya', href: 'https://www.youtube.com/watch?v=rxJumcuZ6Wk' },
+      { label: 'Wealth Consciousness of a Shudra', href: 'https://www.youtube.com/watch?v=j3iQ6a3WaVQ' },
+      { label: 'Child of God – a guided meditation by Guruji', href: 'https://www.youtube.com/watch?v=KoNFWA_vk6M' },
+      { label: 'Guru Poornima Blessings 2024', href: 'https://www.youtube.com/watch?v=JGNjdMN85Zs' },
+      { label: 'Guru Bhaktiras – a series of devotional bhajans (10 bhajans: Aao Gurudeva, Guru Brahma Guru Vishnu…)', href: 'https://www.youtube.com/playlist?list=PLawEB4MRHxartsk-P--ZcbcYNF1tX1lp0' },
+      { label: 'Siddhant Ji Pattabhishekam – Vijayadashami 2018, Maralwadi ashram', href: 'https://www.youtube.com/watch?v=hBLYGgBFXoc' }
+    ] },
+    { type: 'h3', text: '3. The SSY USA channel' },
+    { type: 'links', items: [
+      { label: 'Guruji\'s Introduction', href: 'https://www.youtube.com/watch?v=cpv64aDNvys' },
+      { label: 'Infant Siddha Program (ISP) – 12K views', href: 'https://www.youtube.com/watch?v=lz6PidEXHY8' },
+      { label: 'Gurukulam Way Of Life', href: 'https://www.youtube.com/watch?v=RJBONqyyzmo' },
+      { label: 'Reversal of heart disease', href: 'https://www.youtube.com/watch?v=VpzK5AqzYsI' },
+      { label: 'Meditation with Mudras – Part 1', href: 'https://www.youtube.com/watch?v=pUf0xX71xiY' },
+      { label: 'Unique relationship between Guru & Shishya', href: 'https://www.youtube.com/watch?v=KaqcDm1ocv0' },
+      { label: 'Introduction to Pre-TTC (November 2006) – an introduction to teacher training', href: 'https://www.youtube.com/watch?v=1Ep1n7m7tvk' },
+      { label: 'Annaji\'s Speech – Anna Hazare\'s talk, Southern California 2013', href: 'https://www.youtube.com/watch?v=QBFChXbYquI' }
+    ] },
+    { type: 'h3', text: '4. SSY Life (Mumbai) & other channels' },
+    { type: 'links', items: [
+      { label: 'SSY PRANAYAM – SSY Life (2025)', href: 'https://www.youtube.com/watch?v=VMg0SLZeyVU' },
+      { label: 'GURU JI FILM – a short tribute film on Guruji', href: 'https://www.youtube.com/watch?v=LzH6p68Cl_I' },
+      { label: 'SSY Intro – Science of Silence Yog', href: 'https://www.youtube.com/watch?v=RbcOA95u9AU' },
+      { label: 'Pranic Diet – Fruit Salad recipe', href: 'https://www.youtube.com/watch?v=XvIc_xww8QM' },
+      { label: 'Ragi Malt recipe', href: 'https://www.youtube.com/watch?v=-oFs-Lp0iSk' },
+      { label: 'Siddha Samadhi Yoga / Guru Pooja (Telugu)', href: 'https://www.youtube.com/watch?v=IB2aEF8ymFY', text: 'The only SSY guru puja video found in Telugu' },
+      { label: 'सिद्ध समाधि योग मार्गदर्शन (Siddha Samadhi Yoga guidance) – Hindi (Manoj Lekhi, "Design Your Life")', href: 'https://www.youtube.com/watch?v=QB0OS1fP8Vg' },
+      { label: 'Maha Satsang with Guruji Rishi Prabhakarji – Tokyo (abridged)', href: 'https://www.youtube.com/watch?v=ap7c0vu8NVE' },
+      { label: 'Heart to Heart with Siddhant Rishi Prabhakar – Dr Swarup Dutta interview', href: 'https://www.youtube.com/watch?v=wDgpiPfOqdE' },
+      { label: 'Effortless Superfast Learning with 100% Retention – demo (Arundhati Prabhakar\'s channel, 19K)', href: 'https://www.youtube.com/watch?v=WO_Lu0hPbxA' },
+      { label: 'Rishi Gurukulam Pune channel', href: 'https://www.youtube.com/@rishigurukulampune' }
+    ] },
+    { type: 'note', kind: 'info', text: 'No full-length documentary on Guruji, no Doordarshan/TV interview and no dedicated Telugu SSY channel could be found online (as of November 2026). One reason is that Guruji was someone who "did not believe in publicity" – RPIF: "The organisation has always kept a low profile; Guruji did not believe in marketing himself."' },
+
+    { type: 'h2', text: 'Mobile apps' },
+    { type: 'cards', items: [
+      { icon: '📱', title: 'SSY Guruvani – Quotes of Wisdom (Android)', text: 'An app of Guruji\'s sayings made by Rachit Technology (2014) – "com.rachittechnology.ssyguruvani" on play.google.com (v4.26, 2025). There is also an Amazon Alexa skill, "Siddha Samadhi Yoga Guruvani". The iOS version is no longer on the App Store.' },
+      { icon: '📲', title: 'The Liya app (Life Yessence Academy)', text: 'An app mentioned by Manoj Lekhi in a 2017 interview – not currently available in the app stores.' },
+      { icon: '💻', title: 'Digital RCRT', text: 'An online platform for the 100% Memory technique (Pune, 2020) – information via rpif.org.in / thehouseofrishiprabhakar.' }
+    ] },
+
+    { type: 'h2', text: 'Scientific research on SSY' },
+    { type: 'table', head: ['Study', 'Who / where', 'What they found'], rows: [
+      ['**Kozasa EH et al. (2008)** – "Evaluation of Siddha Samadhi Yoga for anxiety and depression symptoms: a preliminary study", Psychological Reports 103(1): 271–274. PMID 18982958', 'Department of Psychobiology, UNIFESP (São Paulo, Brazil); thanks SSY teachers Rishi Prabhakar, Lakshmi Krishnan and S. Mohandas', '22 people with anxiety complaints (14 SSY, 8 waiting list); 2 weeks of SSY (11 pranayamas for ~20 minutes in vajrasana; 20 minutes of Samadhi meditation; twice a day). After one month: depression −70% (control −24%), trait anxiety −29% (control −1%, p=.001), state anxiety −22%, tension −71%; well-being increased. Cited by 83 studies (including the Cramer 2013/2018 and Cabral 2011 meta-analyses).'],
+      ['**Kozasa EH (2002)** – doctoral thesis, UNIFESP (in Portuguese)', 'Supervisor: José Roberto Leite', 'Four groups – pranayama only, Samadhi meditation only, both combined (SSY), and a control; anxiety and depression fell in all the experimental groups; concentration improved most in the meditation group; state anxiety fell clearly in the pranayama group.'],
+      ['**Saritha B, Kamini Devi, Vijaya Lakshmi (2003)** – "Adequacy of diet recommended in SSY camp", Indian J. Nutrition & Dietetics 40(8): 297–302 (M.Sc. thesis 1999)', 'College of Home Science, ANGRAU, Hyderabad', '90 people (aged 15–45+) at 2 camps in Ranga Reddy district (Ramnagar, Tulasibhavan); a 13-day course; a dinner of sprouts, raw vegetables, fruit and nuts; jaggery and honey instead of sugar; by the end of the camp BP and glucose had reached normal levels; women\'s haemoglobin 10.6 → 11.05; 75% kept to the diet afterwards.'],
+      ['**Sreedevi K, Devaki PB, Bhushanam GV (2012)** – "Effect of SSY Camps on Health and Nutritional Status of Normal and Diabetic Subjects", J Diabetes Metab 3(5):195', 'National Institute of Nutrition (NIN), Hyderabad; SV University, Tirupati; ANGRAU', '18-day SSY camps in Mahabubnagar and Tirupati; 30 normal + 30 diabetic (NIDDM) men (aged 25–45). In the diabetics, post-meal glucose 233 → 198 mg/dl (−15%); BMI −4%; cholesterol −4%; haemoglobin +7.5–12%; intake of fibre, vitamin C and iron rose. Limitation: no control group.'],
+      ['**Sreedevi K et al. (2013)** – "…Obese and Diabetic Subjects", IJSRP 3(9)', 'The same team', 'In the obese subjects BMI −7.8%, haemoglobin +14.7%; the same results in the diabetics.']
+    ] },
+    { type: 'p', text: 'In summary: the research on SSY is small (22–90 people), and some studies have no control group – but all of it shows positive changes in anxiety, depression, blood sugar, BMI, cholesterol and haemoglobin. There is no research on claims such as "curing cancer". Full details are on the [Benefits & research](benefits.html) page; the list of sources is on the [Sources](sources.html) page.' }
+  ]
+};
