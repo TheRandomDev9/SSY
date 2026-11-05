@@ -1,7 +1,6 @@
-name: Publish to GitHub Pages
+name: Deploy to GitHub Pages
 
-# Publishes the static site to the `gh-pages` branch.
-# GitHub Pages source: Settings → Pages → "Deploy from a branch" → gh-pages / (root)
+# Pages source must be set to "GitHub Actions" (Settings → Pages → Build and deployment → Source).
 
 on:
   push:
@@ -9,31 +8,52 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  publish:
-    name: Publish site
+  build:
+    name: Build site
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prepare site folder
-        run: |
-          mkdir -p _site
-          cp -r index.html assets .nojekyll _site/
-          ls -R _site | head -50
-
-      - name: Push to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          publish_branch: gh-pages
-          force_orphan: true
-          commit_message: "Publish site from ${{ github.sha }}"
+          node-version: '22'
+
+      - name: Build
+        run: |
+          if [ -f build.js ]; then
+            node build.js
+          else
+            mkdir -p dist && cp -r index.html assets .nojekyll dist/
+          fi
+          ls -R dist | head -40
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
