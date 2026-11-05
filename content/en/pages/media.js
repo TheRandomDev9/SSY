@@ -5,7 +5,7 @@ module.exports = {
   short: 'Media – audio, video, books',
   lead: 'All the forms in which Guruji\'s teachings are available, in one place: 13 books published by RSVK, 51 audio discourse cassettes (full list), 17 bhajan albums, RPIF e-books, the monthly magazine "Rishi Vani", YouTube channels (with video links), online audio, mobile apps and the scientific research published on SSY.',
   blocks: [
-    { type: 'note', kind: 'info', text: 'All links on this page go to external websites (YouTube, archive.org, publishers). The videos are not embedded here – clicking a link opens it in a new tab. To buy RSVK publications (books, cassettes/CDs): **9900023241 / 9900023275**.' },
+    { type: 'note', kind: 'info', text: 'All links on this page go to external websites (YouTube, archive.org, publishers). For just the official list of all 51 cassettes, 13 books and 17 bhajan albums with references, see the [Publications list](publications.html). The videos are not embedded here – clicking a link opens it in a new tab. To buy RSVK publications (books, cassettes/CDs): **9900023241 / 9900023275**.' },
 
     { type: 'h2', text: 'Books' },
     { type: 'h3', text: 'RSVK publications – Guruji\'s writings (English)' },
@@ -35,7 +35,7 @@ module.exports = {
     { type: 'h3', text: 'Other books' },
     { type: 'ul', items: [
       '**Divine Satsang: My Divine Encounter with Guruji Rishi Prabhakarji** – Arundhati Rishi Prabhakar (Partridge, April 2015).',
-      '**ಆಯಾಸವಿಲ್ಲದೆ ಬದುಕಿರಿ, ಆರೋಗ್ಯವಾಗಿರಿ** (Kannada – "Live without fatigue, stay healthy") – a Kannada book with Guruji\'s picture, sold in Bengaluru bookshops; one practitioner wrote that he "read it in a single day" and then came to the SSY course.',
+      '**"Ashistininda Badukiri Arogyavagiri"** (a Kannada book – a reader\'s transliteration in a blog; the exact Kannada spelling is not verified) – a Kannada book with Guruji\'s picture, sold in Bengaluru bookshops; one practitioner wrote that he "read it in a single day" and then came to the SSY course.',
       '**Manoj Lekhi\'s books** (manojlekhi.in/books) – practical tools based on SSY.',
       '"Miracles of SSY" (1980, Rishi Prabhakar, RSVK) – a work cited in the ILRD syllabus of Karnatak University.',
       'Some Telugu, Kannada, Marathi and Hindi translations are available at local centres; Telugu SSY class audios are used at centres in the Telugu states.'

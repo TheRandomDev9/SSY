@@ -28,7 +28,7 @@ module.exports = {
   },
   nav: [
     { title: 'SSY గురించి', items: ['index', 'intro', 'philosophy', 'teachings', 'benefits', 'faq'] },
-    { title: 'గురూజీ & చరిత్ర', items: ['guruji', 'history', 'books', 'media'] },
+    { title: 'గురూజీ & చరిత్ర', items: ['guruji', 'history', 'books', 'publications', 'media'] },
     { title: 'సాధకుడి మార్గం', items: ['student', 'course', 'amc', 'bst', 'techniques', 'diet', 'sadhana', 'phases'] },
     { title: 'గురువు మార్గం', items: ['teacher'] },
     { title: 'కార్యక్రమాలు & సంస్థ', items: ['programs', 'children', 'rsvk', 'centres', 'events', 'resources', 'sources'] },

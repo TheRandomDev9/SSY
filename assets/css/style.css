@@ -534,3 +534,8 @@ noscript .nojs { display: block; padding: 20px var(--gutter); max-width: 800px; 
 .card:has(h4 a:focus-visible) { outline: 3px solid var(--accent); outline-offset: 2px; }
 .ladder .box .t a { color: inherit; text-decoration-color: var(--line-strong); }
 .ladder .box .t a:hover { color: var(--accent); }
+
+/* compact tables: fit the screen instead of scrolling (used for long lists) */
+table.compact { min-width: 0; table-layout: auto; }
+table.compact th:first-child, table.compact td:first-child { width: 2.4em; text-align: right; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+@media (max-width: 560px) { table.compact th, table.compact td { padding: 9px 8px; font-size: .92rem; } }

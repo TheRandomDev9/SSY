@@ -80,7 +80,7 @@ module.exports = {
     {
       "type": "note",
       "kind": "info",
-      "text": "Books are available from the RSVK publications page ([rsvk.org/publications](https://www.rsvk.org/publications)) and at course centres. Some Telugu, Kannada, Marathi and Hindi translations are available at local centres."
+      "text": "Books are available from the RSVK publications page ([rsvk.org/publications](https://www.rsvk.org/publications)) and at course centres. Some Telugu, Kannada, Marathi and Hindi translations are available at local centres. The complete list of all 13 books, 51 audio cassettes and 17 bhajan albums, with references: [Publications list](publications.html)."
     }
   ]
 };

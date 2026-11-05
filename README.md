@@ -6,12 +6,12 @@ Telugu is the primary language (site root); English is a full mirror under `/en/
 
 **Live site:** https://therandomdev9.github.io/SSY/ · English: https://therandomdev9.github.io/SSY/en/
 
-## What is covered (28 pages)
+## What is covered (29 pages)
 
 | Group | Pages |
 |---|---|
 | About SSY | Home (hub), What is SSY, Philosophy, Rishi Vani (Guruji's sayings by theme), Benefits & research, FAQ |
-| Guruji & history | Guruji's biography, History timeline 1948–2026, Books, Media library (books, 51 audio talks, bhajans, videos, apps, research papers) |
+| Guruji & history | Guruji's biography, History timeline 1948–2026, Books, Publications list (all 51 audio cassettes, 13 books and 17 bhajan albums from rsvk.org/publications, with references), Media library (books, 51 audio talks, bhajans, videos, apps, research papers) |
 | Student path | Student path overview, Basic course (14 sessions), AMC silence retreat, BST 1 & 2, Practices, Diet, Daily sadhana, Phases |
 | Teacher path | TTC Phases 1 → 2A → 2B → 3 → 4 with the official requirements of each phase |
 | Programmes & organisation | Complete programme catalogue, Children & education, RSVK & ashrams, Centres directory, Annual events, Joining a course, Sources |
